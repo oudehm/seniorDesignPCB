@@ -416,7 +416,7 @@
         "uuid": "4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
       }
     ],
-    "used_designators": "UARTdebugHeader1,U1,SW1,C1-14,SWDdebugHeader1,decoupl_C1-14,VCAP_C1,J1-5,R1-6,#PWR1-68,rescaps_C1-2,Y1-2",
+    "used_designators": "#FLG1-3,FB1,#PWR77-86,C10-11,R10-16",
     "variants": []
   },
   "sheets": [
