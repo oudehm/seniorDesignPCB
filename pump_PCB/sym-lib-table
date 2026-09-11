@@ -1,0 +1,2 @@
+(sym_lib_table (version 7) (lib (name "PumpDrivers")(type "KiCad")(uri "${KIPRJMOD}/PumpDrivers.kicad_sym")(options "")(descr "Non-inverting MOSFET gate driver, per teammate-verified pump circuit"))
+(lib (name "PumpPower")(type "KiCad")(uri "${KIPRJMOD}/PumpPower.kicad_sym")(options "")(descr "CSD18540Q5B with TI land pattern")))

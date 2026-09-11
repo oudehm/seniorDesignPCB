@@ -131,3 +131,5 @@
 	(constraint clearance (min 0.127mm))
 )
 
+
+(rule "Power board copper clearance" (constraint clearance (min 0.2mm)))
