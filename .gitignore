@@ -28,3 +28,9 @@
 *-backups/
 routing/
 .history/
+
+# Board previews displayed in the README.
+!/docs/images/brain.png
+!/docs/images/light.png
+!/docs/images/power.png
+!/docs/images/pump.png

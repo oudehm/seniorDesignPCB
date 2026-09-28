@@ -2,6 +2,26 @@
 
 Editable KiCad projects for the brain, light, power, and pump boards.
 
+## Board previews
+
+3D renders from the KiCad designs. Parts without available 3D models may not appear.
+
+### Brain board
+
+![Brain PCB 3D view](docs/images/brain.png)
+
+### Light board
+
+![Light PCB 3D view](docs/images/light.png)
+
+### Power board
+
+![Power PCB 3D view](docs/images/power.png)
+
+### Pump board
+
+![Pump PCB 3D view](docs/images/pump.png)
+
 ## Open the designs
 
 1. Install KiCad 10.0.3 or newer with the standard symbol, footprint, and 3D model libraries.
