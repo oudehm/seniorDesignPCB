@@ -1,0 +1,4 @@
+(sym_lib_table
+ (version 7)
+ (lib (name "BrainPower")(type "KiCad")(uri "${KIPRJMOD}/symbols/BrainPower.kicad_sym")(options "")(descr "Brain board power switches"))
+)

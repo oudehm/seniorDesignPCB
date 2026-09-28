@@ -2214,6 +2214,198 @@
 							(font
 								(size 1.27 1.27))))))
 			(embedded_fonts no)))
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 368.3 360.68 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99ebe31e-edaf-4e08-8531-e647b0941842")
+		(property "Reference" "F7"
+			(at 378.46 351.79 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "1.5A FAST / AERATOR"
+			(at 378.46 354.33 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 378.46 354.33 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/fuse-466-datasheet?assetguid=dbe9bcd7-6072-4adf-bf5b-d33e52a6b90f"
+			(at 378.46 354.33 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "046601.5NR"
+			(at 378.46 354.33 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Littelfuse"
+			(at 378.46 354.33 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "power_PCB"
+				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
+					(reference "F7")
+					(unit 1))))
+		(pin "1"
+			(uuid "e1e4ca25-4ee7-44f2-8465-e81469d3be67"))
+		(pin "2"
+			(uuid "98bba78f-8f6f-44be-99eb-006d97119e62"))
+		(property "LCSC" "C151136"
+			(at 368.3 360.68 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/Littelfuse-0466015NR/C151136"
+			(at 368.3 360.68 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 368.3 356.87)
+			(xy 368.3 351.79))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5ae4e2ee-fa89-4d74-8b02-7f44a5e32b57"))
+	(label "P12V"
+		(at 368.3 351.79 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "f7e0c184-71cf-4e03-b8a8-a55a1fad7fcb"))
+	(wire
+		(pts
+			(xy 368.3 364.49)
+			(xy 368.3 369.57))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "90bbe6b4-e5c6-42cc-a17e-0e0844a7a99f"))
+	(label "AER_12V"
+		(at 368.3 369.57 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "1059963e-68b8-45bb-b650-3d4da13b5b1d"))
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 424.18 360.68 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02cf8a09-e788-44d2-8016-98801ceff539")
+		(property "Reference" "J8"
+			(at 434.34 351.79 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "AERATOR 12V"
+			(at 434.34 354.33 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 434.34 354.33 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 434.34 354.33 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 434.34 354.33 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 434.34 354.33 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "power_PCB"
+				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
+					(reference "J8")
+					(unit 1))))
+		(pin "1"
+			(uuid "f7b970aa-c39e-45a8-a2fa-3394dff9b60c"))
+		(pin "2"
+			(uuid "8d3bd31a-680b-4472-8fc6-25722f9d992c"))
+		(property "LCSC" ""
+			(at 424.18 360.68 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 424.18 360.68 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 419.1 360.68)
+			(xy 411.48 360.68))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b939d98f-c785-450d-b3a3-7dc45b221157"))
+	(label "AER_12V"
+		(at 411.48 360.68 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "8a51c74c-2781-4f38-8696-dabc0efbdafd"))
+	(wire
+		(pts
+			(xy 419.1 363.22)
+			(xy 411.48 363.22))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e5e25196-db32-4816-bbc3-49539f49ebd0"))
+	(label "GND"
+		(at 411.48 363.22 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "2970ce0c-f18d-4ef0-bdb2-2cd8b0a968bf"))
+	(text "AERATOR BRANCH: P12V -> F7 -> J8 pin 1; pin 2 ground. Always on (not switched by brain).\nOne 12V / <0.4A diaphragm air pump (Amazon B089ZRYZV8), runs 24/7.\n1.5A fuse (same part as F6): verify motor startup does not open it.\nFit a check valve in the air line so water cannot siphon back into the pump."
+		(at 342.9 386.08 0)
+		(effects
+			(font
+				(size 1 1)))
+		(uuid "6d390e4d-a040-48a6-acf9-776fc29eac85"))
 	(sheet_instances
 		(path "/"
 			(page "1")))
@@ -2248,13 +2440,13 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-1024_1x10-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-1015_1x10_P3.00mm_Vertical"
 			(at 48.26 41.91 0)
 			(effects
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436501024"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436501015"
 			(at 48.26 41.91 0)
 			(effects
 				(font
@@ -2285,19 +2477,19 @@
 			(uuid "387e3b3e-a48a-48f9-abbb-5fa5b9f5ec0c"))
 		(pin "10"
 			(uuid "f7204331-1656-4759-9b45-9b1b395e2622"))
-		(property "MPN" "436501024"
+		(property "MPN" "0436501015"
 			(at 43.18 53.34 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "MOLEX"
 			(at 43.18 53.34 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected SMT header; matched cable housing and contacts required. PROVISIONAL current sharing: populate every pin with equal-length 18AWG wires; validate sharing and temperature. Never feed through one pair."
+		(property "Selection Notes" "Vertical Micro-Fit replacement; PCB footprint updated where required. Preserve numbered pin functions; verify cable mating cavity view."
 			(at 43.18 53.34 0)
 			(effects
 				(font
@@ -2310,6 +2502,30 @@
 					(size 1 1)))
 			(hide yes))
 		(property "Cable Contact" "430300038 (18AWG)"
+			(at 43.18 53.34 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C17337723"
+			(at 43.18 53.34 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MOLEX-0436501015/C17337723"
+			(at 43.18 53.34 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "10-circuit vertical through-hole Micro-Fit. Preserve all five positive and five return contacts; redesign holes and current paths. No one-pair power shortcut."
+			(at 43.18 53.34 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
 			(at 43.18 53.34 0)
 			(effects
 				(font
@@ -2368,6 +2584,18 @@
 			(hide yes))
 		(property "Selection Notes" "PROVISIONAL: 15A total continuous target. Include ambient derating; verify fault clearing with actual PSU current limit, cable ampacity, and branch selectivity. Fuse rating is not a board current rating."
 			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C178980"
+			(at 96.52 43.18 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/Littelfuse-0451020MRL/C178980"
+			(at 96.52 43.18 90)
 			(effects
 				(font
 					(size 1 1)))
@@ -2440,6 +2668,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C83846"
+			(at 142.24 43.18 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/Littelfuse-SMBJ15A/C83846"
+			(at 142.24 43.18 90)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(label "P12V"
 		(at 142.24 52.07 0)
@@ -2505,6 +2745,18 @@
 					(size 1 1)))
 			(hide yes))
 		(property "Selection Notes" "Selected 8mm x 10.2mm SMD, ESR 27mOhm, ripple rating 1.6Arms at 100kHz. Check application ripple and inrush."
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C454651"
+			(at 187.96 43.18 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/PANASONIC-EEHZC1V101P/C454651"
 			(at 187.96 43.18 0)
 			(effects
 				(font
@@ -2578,6 +2830,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77082"
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR71H104KA01L/C77082"
+			(at 231.14 43.18 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(label "P12V"
 		(at 231.14 34.29 0)
@@ -2647,6 +2911,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C48467"
+			(at 53.34 86.36 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/Littelfuse-0451005MRL/C48467"
+			(at 53.34 86.36 90)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(label "P12V"
 		(at 44.45 86.36 0)
@@ -2711,8 +2987,20 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "PROVISIONAL: 1.25A pumps nominal; verify start/stall I2t. Include ambient derating; verify fault clearing with actual PSU current limit, cable ampacity, and branch selectivity. Fuse rating is not a board current rating."
+		(property "Selection Notes" "PROVISIONAL: 2.75A provisional combined pump running allowance, excluding drivers; verify start/stall I2t. Include ambient derating; verify fault clearing with actual PSU current limit, cable ampacity, and branch selectivity. Fuse rating is not a board current rating."
 			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C13982"
+			(at 124.46 86.36 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/Littelfuse-0451003MRL/C13982"
+			(at 124.46 86.36 90)
 			(effects
 				(font
 					(size 1 1)))
@@ -2785,6 +3073,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C44480"
+			(at 195.58 86.36 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/Littelfuse-0451015MRL/C44480"
+			(at 195.58 86.36 90)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(label "P12V"
 		(at 186.69 86.36 0)
@@ -2854,6 +3154,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C13982"
+			(at 266.7 86.36 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/Littelfuse-0451003MRL/C13982"
+			(at 266.7 86.36 90)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(label "P12V"
 		(at 257.81 86.36 0)
@@ -2885,13 +3197,13 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0224_1x02-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 58.42 120.65 0)
 			(effects
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500224"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 58.42 120.65 0)
 			(effects
 				(font
@@ -2906,31 +3218,43 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "J2")
 					(unit 1))))
-		(property "MPN" "436500224"
+		(property "MPN" "B2B-XH-A(LF)(SN)"
 			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
 			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected SMT header; matched cable housing and contacts required."
+		(property "Selection Notes" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
 			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Mating Housing" "436450200"
+		(property "Mating Housing" "XHP-2"
 			(at 53.34 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Cable Contact" "430300038 (18AWG)"
+		(property "Cable Contact" "SXH-001T-P0.6"
+			(at 53.34 121.92 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" ""
+			(at 53.34 121.92 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
 			(at 53.34 121.92 0)
 			(effects
 				(font
@@ -2966,13 +3290,13 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0324_1x03-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 129.54 120.65 0)
 			(effects
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500324"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 129.54 120.65 0)
 			(effects
 				(font
@@ -2989,31 +3313,55 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "J3")
 					(unit 1))))
-		(property "MPN" "436500324"
+		(property "MPN" "B3B-XH-A(LF)(SN)"
 			(at 124.46 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
 			(at 124.46 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected SMT header; matched cable housing and contacts required."
+		(property "Selection Notes" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
 			(at 124.46 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Mating Housing" "436450300"
+		(property "Mating Housing" "XHP-3"
 			(at 124.46 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Cable Contact" "430300007 (20-24AWG)"
+		(property "Cable Contact" "SXH-001T-P0.6"
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" ""
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 124.46 121.92 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
 			(at 124.46 121.92 0)
 			(effects
 				(font
@@ -3055,13 +3403,13 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0624_1x06-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0615_1x06_P3.00mm_Vertical"
 			(at 200.66 120.65 0)
 			(effects
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500624"
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500615"
 			(at 200.66 120.65 0)
 			(effects
 				(font
@@ -3084,19 +3432,19 @@
 			(uuid "546dfbe3-b327-42ef-b3d0-17db7a50c136"))
 		(pin "6"
 			(uuid "94634eff-3b16-42b5-83db-195cc25208d0"))
-		(property "MPN" "436500624"
+		(property "MPN" "436500615"
 			(at 195.58 127.0 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "MOLEX"
 			(at 195.58 127.0 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected SMT header; matched cable housing and contacts required. PROVISIONAL current sharing: populate every pin with equal-length 18AWG wires; validate sharing and temperature. Never feed through one pair."
+		(property "Selection Notes" "Vertical Micro-Fit replacement; PCB footprint updated where required. Preserve numbered pin functions; verify cable mating cavity view."
 			(at 195.58 127.0 0)
 			(effects
 				(font
@@ -3109,6 +3457,30 @@
 					(size 1 1)))
 			(hide yes))
 		(property "Cable Contact" "430300038 (18AWG)"
+			(at 195.58 127.0 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C505231"
+			(at 195.58 127.0 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MOLEX-436500615/C505231"
+			(at 195.58 127.0 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "6-circuit vertical through-hole Micro-Fit. Replace SMT footprint, add plated pin holes and locating holes; re-route and recheck current paths."
+			(at 195.58 127.0 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
 			(at 195.58 127.0 0)
 			(effects
 				(font
@@ -3132,13 +3504,13 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0224_1x02-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 271.78 120.65 0)
 			(effects
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500224"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 271.78 120.65 0)
 			(effects
 				(font
@@ -3153,31 +3525,43 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "J5")
 					(unit 1))))
-		(property "MPN" "436500224"
+		(property "MPN" "B2B-XH-A(LF)(SN)"
 			(at 266.7 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
 			(at 266.7 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected SMT header; matched cable housing and contacts required."
+		(property "Selection Notes" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
 			(at 266.7 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Mating Housing" "436450200"
+		(property "Mating Housing" "XHP-2"
 			(at 266.7 121.92 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Cable Contact" "430300007 (20-24AWG)"
+		(property "Cable Contact" "SXH-001T-P0.6"
+			(at 266.7 121.92 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" ""
+			(at 266.7 121.92 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
 			(at 266.7 121.92 0)
 			(effects
 				(font
@@ -3268,7 +3652,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 104.14 203.2 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C311983"
+			(at 104.14 203.2 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/TexasInstruments-TPS54302DDCR/C311983"
 			(at 104.14 203.2 0)
 			(effects
 				(font
@@ -3330,6 +3726,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77102"
+			(at 35.56 210.82 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM32ER71H106KA12L/C77102"
+			(at 35.56 210.82 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
@@ -3383,6 +3791,18 @@
 					(size 1 1)))
 			(hide yes))
 		(property "Selection Notes" "Selected 10% X7R MLCC; account for DC bias, tolerance and temperature in converter validation."
+			(at 63.5 210.82 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77082"
+			(at 63.5 210.82 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR71H104KA01L/C77082"
 			(at 63.5 210.82 0)
 			(effects
 				(font
@@ -3444,6 +3864,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77082"
+			(at 139.7 193.04 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR71H104KA01L/C77082"
+			(at 139.7 193.04 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(symbol
 		(lib_id "Device:L")
@@ -3463,13 +3895,13 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL7030-682"
+		(property "Footprint" "HydroPower:L_Bourns_SRP7030CA_7.6x7.8mm"
 			(at 182.88 201.93 0)
 			(effects
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.coilcraft.com/en-us/products/power/shielded-inductors/molded-inductor/xal/xal7030/xal7030-682/"
+		(property "Datasheet" "https://www.bourns.com/docs/product-datasheets/SRP7030CA.pdf"
 			(at 182.88 201.93 0)
 			(effects
 				(font
@@ -3484,20 +3916,44 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "L1")
 					(unit 1))))
-		(property "MPN" "XAL7030-682MEC"
+		(property "MPN" "SRP7030CA-6R8M"
 			(at 177.8 203.2 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "Coilcraft"
+		(property "Manufacturer" "BOURNS"
 			(at 177.8 203.2 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected shielded inductor; 20% tolerance. Verify converter ripple, saturation and thermal response in layout."
+		(property "Selection Notes" "6.8uH 20%; Bourns SRP7030CA; max DCR 42.5mohm. Check thermal and regulator transient behavior."
 			(at 177.8 203.2 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C2047432"
+			(at 177.8 203.2 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/BOURNS-SRP7030CA6R8M/C2047432"
+			(at 177.8 203.2 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "Bourns SRP7030CA-6R8M: 6.8uH 20%, 42.5mohm max DCR, typical 12A saturation (30% drop), 4.5A at 20C rise. Different 7.8x7.6mm land pattern; update footprint/routing, verify regulator startup and temperature."
+			(at 177.8 203.2 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
+			(at 177.8 203.2 90)
 			(effects
 				(font
 					(size 1 1)))
@@ -3554,6 +4010,18 @@
 					(size 1 1)))
 			(hide yes))
 		(property "Selection Notes" "Selected 10% X7R MLCC; account for DC bias, tolerance and temperature in converter validation."
+			(at 233.68 210.82 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C21397"
+			(at 233.68 210.82 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM32ER71E226KE15L/C21397"
 			(at 233.68 210.82 0)
 			(effects
 				(font
@@ -3615,6 +4083,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C21397"
+			(at 279.4 210.82 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM32ER71E226KE15L/C21397"
+			(at 279.4 210.82 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
@@ -3667,7 +4147,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 78.74 218.44 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C188257"
+			(at 78.74 218.44 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR07511KL/C188257"
 			(at 78.74 218.44 0)
 			(effects
 				(font
@@ -3697,7 +4189,7 @@
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07105KL"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311211102_YAGEO-RT0603BRD07105KL_C861072.pdf"
 			(at 83.82 237.49 0)
 			(effects
 				(font
@@ -3712,7 +4204,7 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "R2")
 					(unit 1))))
-		(property "MPN" "RC0603FR-07105KL"
+		(property "MPN" "RT0603BRD07105KL"
 			(at 78.74 238.76 0)
 			(effects
 				(font
@@ -3724,7 +4216,37 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 78.74 238.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C861072"
+			(at 78.74 238.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07105KL/C861072"
+			(at 78.74 238.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "Yageo 105kohm 0.1% 0603 thin-film replaces 105kohm 1% thick-film in enable dividers; same resistance, tighter tolerance."
+			(at 78.74 238.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
+			(at 78.74 238.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "105kohm 0.1%, 0603, 100mW"
 			(at 78.74 238.76 0)
 			(effects
 				(font
@@ -3781,7 +4303,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 200.66 218.44 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C122538"
+			(at 200.66 218.44 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07100KL/C122538"
 			(at 200.66 218.44 0)
 			(effects
 				(font
@@ -3838,7 +4372,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 200.66 243.84 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C723484"
+			(at 200.66 243.84 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0722K1L/C723484"
 			(at 200.66 243.84 0)
 			(effects
 				(font
@@ -3868,7 +4414,7 @@
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805JRNPO9BN750_C113832.pdf"
 			(at 256.54 222.25 0)
 			(effects
 				(font
@@ -3883,19 +4429,43 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "C8")
 					(unit 1))))
-		(property "MPN" "C0805C750J5GACTU"
+		(property "MPN" "CC0805JRNPO9BN750"
 			(at 251.46 223.52 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 251.46 223.52 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 251.46 223.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C113832"
+			(at 251.46 223.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-CC0805JRNPO9BN750/C113832"
+			(at 251.46 223.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "Yageo 75pF 50V NP0, 5%, 0805. Same nominal feedback feed-forward capacitance and package."
+			(at 251.46 223.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
 			(at 251.46 223.52 0)
 			(effects
 				(font
@@ -4028,7 +4598,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 104.14 312.42 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C311983"
+			(at 104.14 312.42 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/TexasInstruments-TPS54302DDCR/C311983"
 			(at 104.14 312.42 0)
 			(effects
 				(font
@@ -4090,6 +4672,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77102"
+			(at 35.56 320.04 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM32ER71H106KA12L/C77102"
+			(at 35.56 320.04 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
@@ -4143,6 +4737,18 @@
 					(size 1 1)))
 			(hide yes))
 		(property "Selection Notes" "Selected 10% X7R MLCC; account for DC bias, tolerance and temperature in converter validation."
+			(at 63.5 320.04 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77082"
+			(at 63.5 320.04 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR71H104KA01L/C77082"
 			(at 63.5 320.04 0)
 			(effects
 				(font
@@ -4204,6 +4810,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77082"
+			(at 139.7 302.26 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR71H104KA01L/C77082"
+			(at 139.7 302.26 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(symbol
 		(lib_id "Device:L")
@@ -4261,6 +4879,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C19191652"
+			(at 177.8 312.42 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/Coilcraft-XAL7030103MEC/C19191652"
+			(at 177.8 312.42 90)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
@@ -4314,6 +4944,18 @@
 					(size 1 1)))
 			(hide yes))
 		(property "Selection Notes" "Selected 10% X7R MLCC; account for DC bias, tolerance and temperature in converter validation."
+			(at 233.68 320.04 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C21397"
+			(at 233.68 320.04 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM32ER71E226KE15L/C21397"
 			(at 233.68 320.04 0)
 			(effects
 				(font
@@ -4375,6 +5017,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C21397"
+			(at 279.4 320.04 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM32ER71E226KE15L/C21397"
+			(at 279.4 320.04 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
@@ -4427,7 +5081,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 78.74 327.66 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C188257"
+			(at 78.74 327.66 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR07511KL/C188257"
 			(at 78.74 327.66 0)
 			(effects
 				(font
@@ -4457,7 +5123,7 @@
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.yageogroup.com/component-documentation/download/specsheet/RC0603FR-07105KL"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2311211102_YAGEO-RT0603BRD07105KL_C861072.pdf"
 			(at 83.82 346.71 0)
 			(effects
 				(font
@@ -4472,7 +5138,7 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "R6")
 					(unit 1))))
-		(property "MPN" "RC0603FR-07105KL"
+		(property "MPN" "RT0603BRD07105KL"
 			(at 78.74 347.98 0)
 			(effects
 				(font
@@ -4484,7 +5150,37 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 78.74 347.98 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C861072"
+			(at 78.74 347.98 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07105KL/C861072"
+			(at 78.74 347.98 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "Yageo 105kohm 0.1% 0603 thin-film replaces 105kohm 1% thick-film in enable dividers; same resistance, tighter tolerance."
+			(at 78.74 347.98 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
+			(at 78.74 347.98 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "105kohm 0.1%, 0603, 100mW"
 			(at 78.74 347.98 0)
 			(effects
 				(font
@@ -4541,7 +5237,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 200.66 327.66 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C122538"
+			(at 200.66 327.66 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RT0603BRD07100KL/C122538"
 			(at 200.66 327.66 0)
 			(effects
 				(font
@@ -4598,7 +5306,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 200.66 353.06 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C861118"
+			(at 200.66 353.06 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RT0603BRD0713K5L/C861118"
 			(at 200.66 353.06 0)
 			(effects
 				(font
@@ -4628,7 +5348,7 @@
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_C1003_C0G_SMD.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-CC0805JRNPO9BN750_C113832.pdf"
 			(at 256.54 331.47 0)
 			(effects
 				(font
@@ -4643,19 +5363,43 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "C14")
 					(unit 1))))
-		(property "MPN" "C0805C750J5GACTU"
+		(property "MPN" "CC0805JRNPO9BN750"
 			(at 251.46 332.74 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "KEMET"
+		(property "Manufacturer" "YAGEO"
 			(at 251.46 332.74 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 251.46 332.74 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C113832"
+			(at 251.46 332.74 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-CC0805JRNPO9BN750/C113832"
+			(at 251.46 332.74 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "Yageo 75pF 50V NP0, 5%, 0805. Same nominal feedback feed-forward capacitance and package."
+			(at 251.46 332.74 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
 			(at 251.46 332.74 0)
 			(effects
 				(font
@@ -4747,13 +5491,13 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0224_1x02-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 368.3 46.99 0)
 			(effects
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500224"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 368.3 46.99 0)
 			(effects
 				(font
@@ -4768,31 +5512,43 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "J6")
 					(unit 1))))
-		(property "MPN" "436500224"
+		(property "MPN" "B2B-XH-A(LF)(SN)"
 			(at 363.22 48.26 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "Molex"
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
 			(at 363.22 48.26 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected SMT header; matched cable housing and contacts required."
+		(property "Selection Notes" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
 			(at 363.22 48.26 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Mating Housing" "436450200"
+		(property "Mating Housing" "XHP-2"
 			(at 363.22 48.26 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Cable Contact" "430300007 (20-24AWG)"
+		(property "Cable Contact" "SXH-001T-P0.6"
+			(at 363.22 48.26 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" ""
+			(at 363.22 48.26 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
 			(at 363.22 48.26 0)
 			(effects
 				(font
@@ -4861,7 +5617,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 408.94 48.26 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C98220"
+			(at 408.94 48.26 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR0710KL/C98220"
 			(at 408.94 48.26 0)
 			(effects
 				(font
@@ -4945,7 +5713,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 386.08 124.46 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C2676982"
+			(at 386.08 124.46 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/TexasInstruments-UCC27511ADBVR/C2676982"
 			(at 386.08 124.46 0)
 			(effects
 				(font
@@ -5026,8 +5806,20 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
 			(at 439.42 121.92 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C107701"
+			(at 439.42 121.92 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR0722RL/C107701"
+			(at 439.42 121.92 90)
 			(effects
 				(font
 					(size 1 1)))
@@ -5083,8 +5875,20 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
 			(at 439.42 127 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C107701"
+			(at 439.42 127 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR0722RL/C107701"
+			(at 439.42 127 90)
 			(effects
 				(font
 					(size 1 1)))
@@ -5151,6 +5955,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C86513"
+			(at 530.86 132.08 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/TexasInstruments-CSD18540Q5B/C86513"
+			(at 530.86 132.08 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
@@ -5203,7 +6019,19 @@
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Selection Notes" "Selected; PCB layout and assembly sourcing pending"
+		(property "Selection Notes" "Selected; layout routed; assembly sourcing pending"
+			(at 485.14 162.56 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C98220"
+			(at 485.14 162.56 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR0710KL/C98220"
 			(at 485.14 162.56 0)
 			(effects
 				(font
@@ -5295,6 +6123,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77082"
+			(at 353.06 170.18 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR71H104KA01L/C77082"
+			(at 353.06 170.18 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(label "+5V"
 		(at 353.06 161.29 0)
@@ -5364,6 +6204,18 @@
 			(effects
 				(font
 					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77080"
+			(at 398.78 170.18 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM21BR71E105KA99L/C77080"
+			(at 398.78 170.18 0)
+			(effects
+				(font
+					(size 1 1)))
 			(hide yes)))
 	(label "+5V"
 		(at 398.78 161.29 0)
@@ -5401,7 +6253,7 @@
 				(font
 					(size 1.0 1.0)))
 			(hide yes))
-		(property "Datasheet" "https://www.vishay.com/docs/89340/v10p45.pdf"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312131720_Vishay-Intertech-V10P45HM3-A-H_C6582752.pdf"
 			(at 535.94 201.93 0)
 			(effects
 				(font
@@ -5416,13 +6268,13 @@
 				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
 					(reference "D2")
 					(unit 1))))
-		(property "MPN" "V10P45-M3/86A"
+		(property "MPN" "V10P45HM3_A/H"
 			(at 530.86 203.2 0)
 			(effects
 				(font
 					(size 1 1)))
 			(hide yes))
-		(property "Manufacturer" "Vishay"
+		(property "Manufacturer" "Vishay Intertech"
 			(at 530.86 203.2 0)
 			(effects
 				(font
@@ -5430,6 +6282,30 @@
 			(hide yes))
 		(property "Selection Notes" "Selected for slow switch-off clamp service, not continuous 10A free-air dissipation. Cathode large pad to COOL_12V; both anodes to COOL_NEG. Validate turn-off waveform."
 			(at 530.86 203.2 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C6582752"
+			(at 530.86 203.2 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/VishayIntertech-V10P45HM3_AH/C6582752"
+			(at 530.86 203.2 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "Vishay V10P45 automotive-grade ordering variant, 45V 10A TO-277A. Same manufacturer datasheet covers both MPNs. Retain existing custom cathode/anode mapping and thermal review."
+			(at 530.86 203.2 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
+			(at 530.86 203.2 90)
 			(effects
 				(font
 					(size 1 1)))
@@ -5498,6 +6374,18 @@
 					(size 1 1)))
 			(hide yes))
 		(property "Selection Notes" "Selected 8mm x 10.2mm SMD, ESR 27mOhm, ripple rating 1.6Arms at 100kHz. Check application ripple and inrush."
+			(at 449.58 203.2 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C454651"
+			(at 449.58 203.2 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/PANASONIC-EEHZC1V101P/C454651"
 			(at 449.58 203.2 0)
 			(effects
 				(font
@@ -5999,7 +6887,7 @@
 			(font
 				(size 1.0 1.0)))
 		(uuid "315ee481-3644-4bd0-b230-b75e4a850bcc"))
-	(text "PRE-LAYOUT PART SELECTION - NOT FOR FABRICATION\nMPN, Manufacturer and Datasheet fields assigned to every purchased PCB part.\nAll soldered parts / connector tabs are surface mount; test points are bare copper.\nCurrent-dependent selections remain provisional until loads / temperature are measured.\nBrain supply is 3.3V ONLY. Verify it before connecting the brain.\n5V pump rail retained pending teammate driver update; garden fans / heater excluded.\nMain fuse requires PSU fault-mode verification; selective branch clearing not established.\nMating cable housings / contacts listed in connector properties; harness assembly separate.\nPCB copper, thermal performance, inrush and MLCC bias remain to be validated."
+	(text "PRE-LAYOUT PART SELECTION - NOT FOR FABRICATION\nMPN, Manufacturer and Datasheet fields assigned to every purchased PCB part.\nAll soldered parts / connector tabs are surface mount; test points are bare copper.\nCurrent-dependent selections remain provisional until loads / temperature are measured.\nBrain supply is 3.3V ONLY. Verify it before connecting the brain.\n5V pump rail retained pending teammate driver update; fan branch F6/J7 added; heater removed from project.\nMain fuse requires PSU fault-mode verification; selective branch clearing not established.\nMating cable housings / contacts listed in connector properties; harness assembly separate.\nPCB copper, thermal performance, inrush and MLCC bias remain to be validated."
 		(at 335.28 370.84 0)
 		(effects
 			(font
@@ -7457,4 +8345,196 @@
 		(effects
 			(font
 				(size 1 1)))
-		(uuid "6e1e947c-5da3-4c66-8b1c-bdfaa3829a01")))
+		(uuid "6e1e947c-5da3-4c66-8b1c-bdfaa3829a01"))
+	(symbol
+		(lib_id "Device:Fuse")
+		(at 203.2 350.52 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa8eb830-abc4-4a9b-af38-d7c191e98f40")
+		(property "Reference" "F6"
+			(at 213.36 341.63 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "1.5A FAST / FAN"
+			(at 213.36 344.17 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 213.36 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/fuse-466-datasheet?assetguid=dbe9bcd7-6072-4adf-bf5b-d33e52a6b90f"
+			(at 213.36 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "046601.5NR"
+			(at 213.36 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Littelfuse"
+			(at 213.36 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "power_PCB"
+				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
+					(reference "F6")
+					(unit 1))))
+		(pin "1"
+			(uuid "78d772ba-c834-4ae7-99b9-66b0e4d8fec7"))
+		(pin "2"
+			(uuid "5f060008-b08b-4b5e-b4d9-066a5839fedb"))
+		(property "LCSC" "C151136"
+			(at 203.2 350.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/Littelfuse-0466015NR/C151136"
+			(at 203.2 350.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 203.2 346.71)
+			(xy 203.2 341.63))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d1e0cc37-9795-4140-ae24-4f8eb80de69d"))
+	(label "P12V"
+		(at 203.2 341.63 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "43835818-020e-4c97-b9d7-dcead0fc665e"))
+	(wire
+		(pts
+			(xy 203.2 354.33)
+			(xy 203.2 359.41))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "bc82a56a-3b9e-41dd-b5a4-2b0b454d280a"))
+	(label "FAN_12V"
+		(at 203.2 359.41 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "2318a651-910e-477d-a2a2-418d5491edaa"))
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 259.08 350.52 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9687b596-ce69-4f14-838a-a2cb2a23fd41")
+		(property "Reference" "J7"
+			(at 269.24 341.63 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "FANS TO BRAIN"
+			(at 269.24 344.17 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 269.24 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 269.24 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 269.24 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 269.24 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "power_PCB"
+				(path "/c2c0a330-a93d-49b2-8faf-4b6f96a1581b"
+					(reference "J7")
+					(unit 1))))
+		(pin "1"
+			(uuid "d3876bde-b65e-4b88-bea3-3027c60fccf8"))
+		(pin "2"
+			(uuid "8a01bb9b-fbeb-41c9-a3ae-863821aa93a2"))
+		(property "LCSC" ""
+			(at 259.08 350.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 259.08 350.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 254.0 350.52)
+			(xy 246.38 350.52))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "50465bf3-d130-47b5-a541-fab8d4e74b3e"))
+	(label "FAN_12V"
+		(at 246.38 350.52 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "fcd46290-ed63-45b6-bcf7-316f934ffb19"))
+	(wire
+		(pts
+			(xy 254.0 353.06)
+			(xy 246.38 353.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "659c7a52-fa51-4d48-a92a-0f6243f5852e"))
+	(label "GND"
+		(at 246.38 353.06 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "88c2bed4-379d-4884-a369-29a7bdcdd70f"))
+	(text "FAN BRANCH: P12V -> F6 -> J7 pin 1; pin 2 ground.\nTwo 12V / 0.33A fans; 0.66A combined specified current.\n1.5A fuse selection: verify startup / fault clearing with actual PSU.\nConnect only to brain J14 (12V fan input), not brain J10 (3V3)."
+		(at 177.8 375.92 0)
+		(effects
+			(font
+				(size 1 1)))
+		(uuid "76e2bdbc-426f-48f4-9d8b-578e16bed28a")))

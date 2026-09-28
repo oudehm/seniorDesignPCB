@@ -395,6 +395,174 @@
 							(font
 								(size 1.27 1.27))))))
 			(embedded_fonts no))
+		(symbol "Connector_Generic:Conn_01x05"
+			(pin_names
+				(offset 1.016)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Conn_01x05"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "Conn_01x05_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default))
+					(fill
+						(type none)))
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default))
+					(fill
+						(type none)))
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default))
+					(fill
+						(type none)))
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default))
+					(fill
+						(type none)))
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default))
+					(fill
+						(type none)))
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no))
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
@@ -5690,7 +5858,347 @@
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27))))))))
+								(size 1.27 1.27)))))))
+		(symbol "74xGxx:74LVC2G07"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "74LVC2G07"
+				(at 2.54 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" "Dual Buffer, Open Drain, Low-Voltage CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_keywords" "Dual Gate Buffer Open Drain LVC CMOS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_fp_filters" "SG-* SOT*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "74LVC2G07_1_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35)
+						(xy -7.62 -6.35)
+						(xy 5.08 0)
+						(xy -7.62 6.35))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(polyline
+					(pts
+						(xy -2.54 -1.27)
+						(xy 0 -1.27))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(polyline
+					(pts
+						(xy -1.27 1.27)
+						(xy -2.54 0)
+						(xy -1.27 -1.27)
+						(xy 0 0)
+						(xy -1.27 1.27))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin open_collector line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(symbol "74LVC2G07_2_1"
+				(polyline
+					(pts
+						(xy -7.62 6.35)
+						(xy -7.62 -6.35)
+						(xy 5.08 0)
+						(xy -7.62 6.35))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(polyline
+					(pts
+						(xy -2.54 -1.27)
+						(xy 0 -1.27))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(polyline
+					(pts
+						(xy -1.27 1.27)
+						(xy -2.54 0)
+						(xy -1.27 -1.27)
+						(xy 0 0)
+						(xy -1.27 1.27))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(pin input line
+					(at -15.24 0 0)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin open_collector line
+					(at 12.7 0 180)
+					(length 7.62)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(symbol "74LVC2G07_3_0"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 5.08)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "74LVC2G07_3_1"
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no))
+		(symbol "BrainPower:TPS22919DCK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "TPS22919DCK"
+				(at 2.54 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22919.pdf"
+				(at 1.27 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Description" "1.6V to 5.5V active-high load switch with output discharge, SC70-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_keywords" "high-side power distribution switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "ki_fp_filters" "SOT*363*SC*70*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(symbol "TPS22919DCK_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "TPS22919DCK_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "ON"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin no_connect line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "QOD"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)))))
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no)))
 	(junction
 		(at 31.75 96.52)
 		(diameter 0)
@@ -5722,11 +6230,6 @@
 		(color 0 0 0 0)
 		(uuid "1be1378a-5f35-400f-92fd-410042e90238"))
 	(junction
-		(at 171.45 251.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c34b15d-1ad7-4cea-a336-7b3e35febe8a"))
-	(junction
 		(at 143.51 265.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5756,11 +6259,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "544b3005-a58a-4be0-a31f-37620985e22e"))
-	(junction
-		(at 171.45 264.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "595286b8-3530-4286-b324-db0a13abe90d"))
 	(junction
 		(at 31.75 68.58)
 		(diameter 0)
@@ -5869,14 +6367,6 @@
 			(width 0)
 			(type default))
 		(uuid "00de9ae6-be02-4053-96cc-e9a353d1141d"))
-	(wire
-		(pts
-			(xy 34.29 180.34)
-			(xy 34.29 185.42))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "02211a73-f339-4813-9223-2b7ed1a0e21b"))
 	(wire
 		(pts
 			(xy 215.9 25.4)
@@ -5997,14 +6487,6 @@
 			(width 0)
 			(type default))
 		(uuid "111a77c8-efa9-43a1-b802-f9f147eb3fbf"))
-	(wire
-		(pts
-			(xy 33.02 185.42)
-			(xy 34.29 185.42))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "11e0d52f-d677-4274-92f6-ce44649cc33a"))
 	(wire
 		(pts
 			(xy 139.7 200.66)
@@ -6167,22 +6649,6 @@
 		(uuid "284515c2-632e-436d-84b1-f71684772be0"))
 	(wire
 		(pts
-			(xy 29.21 271.78)
-			(xy 30.48 271.78))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "291190ce-75d5-4290-af69-d5e59870b98c"))
-	(wire
-		(pts
-			(xy 74.93 24.13)
-			(xy 74.93 29.21))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "29929581-08a3-45ec-96b7-a74386d6628b"))
-	(wire
-		(pts
 			(xy 35.56 68.58)
 			(xy 31.75 68.58))
 		(stroke
@@ -6271,14 +6737,6 @@
 		(uuid "3373173c-7970-48bb-a685-4627ecb980b0"))
 	(wire
 		(pts
-			(xy 30.48 271.78)
-			(xy 30.48 265.43))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "33dc7d77-1a32-495c-8d09-8152cd01903a"))
-	(wire
-		(pts
 			(xy 49.53 121.92)
 			(xy 59.69 121.92))
 		(stroke
@@ -6293,14 +6751,6 @@
 			(width 0)
 			(type default))
 		(uuid "3446356e-b397-44c5-880b-8174feafc091"))
-	(wire
-		(pts
-			(xy 168.91 270.51)
-			(xy 168.91 264.16))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "34910db3-1224-4450-b35e-1e221fed3ff4"))
 	(wire
 		(pts
 			(xy 367.03 134.62)
@@ -6543,14 +6993,6 @@
 		(uuid "53ef5f2c-663c-47ae-95ef-ce4c5552fd67"))
 	(wire
 		(pts
-			(xy 33.02 208.28)
-			(xy 33.02 215.9))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "559ba48c-4f2f-46eb-bba8-63a6b8020767"))
-	(wire
-		(pts
 			(xy 227.33 195.58)
 			(xy 238.76 195.58))
 		(stroke
@@ -6607,14 +7049,6 @@
 		(uuid "5ec2011a-3e39-45ce-889d-ecd456b11850"))
 	(wire
 		(pts
-			(xy 168.91 264.16)
-			(xy 171.45 264.16))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "5f814f48-1889-4e6a-8d42-2b9da1cf485c"))
-	(wire
-		(pts
 			(xy 35.56 96.52)
 			(xy 31.75 96.52))
 		(stroke
@@ -6637,14 +7071,6 @@
 			(width 0)
 			(type default))
 		(uuid "60d9d189-fe86-4b95-9a62-f50de413df6f"))
-	(wire
-		(pts
-			(xy 166.37 251.46)
-			(xy 171.45 251.46))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "61b910de-2cb3-4d2f-bdec-caa3d42a38e7"))
 	(wire
 		(pts
 			(xy 242.57 269.24)
@@ -6677,22 +7103,6 @@
 			(width 0)
 			(type default))
 		(uuid "6744e1f4-458c-4456-aa38-b9f9b293fc1b"))
-	(wire
-		(pts
-			(xy 149.86 167.64)
-			(xy 161.29 167.64))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "67d32041-93f9-4a29-ad1a-e3ddbe9b5f6a"))
-	(wire
-		(pts
-			(xy 166.37 270.51)
-			(xy 166.37 251.46))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "685cafb9-cd25-4b84-a076-915d6854ffc4"))
 	(wire
 		(pts
 			(xy 30.48 26.67)
@@ -6869,14 +7279,6 @@
 			(width 0)
 			(type default))
 		(uuid "7bf69f21-0da3-4eed-baaa-5c4181eaebb1"))
-	(wire
-		(pts
-			(xy 33.02 160.02)
-			(xy 34.29 160.02))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "7c11b4b2-5296-47bd-ba05-e7d83a3c936a"))
 	(wire
 		(pts
 			(xy 154.94 35.56)
@@ -7087,14 +7489,6 @@
 		(uuid "9e5a15b5-2bc5-43d3-8db9-fe97cbade06e"))
 	(wire
 		(pts
-			(xy 179.07 269.24)
-			(xy 179.07 271.78))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "9e631318-7da7-4502-904b-b03de718fe97"))
-	(wire
-		(pts
 			(xy 379.73 81.28)
 			(xy 386.08 81.28))
 		(stroke
@@ -7191,14 +7585,6 @@
 		(uuid "aba1d4a5-86f0-4ae1-a2cc-39d79c7bf71c"))
 	(wire
 		(pts
-			(xy 34.29 154.94)
-			(xy 34.29 160.02))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "ac7b9a32-a15d-4a88-bce9-16db0e07d1e8"))
-	(wire
-		(pts
 			(xy 30.48 245.11)
 			(xy 38.1 245.11))
 		(stroke
@@ -7213,14 +7599,6 @@
 			(width 0)
 			(type default))
 		(uuid "b1b0c151-6773-4cf3-89fb-4016e2c772db"))
-	(wire
-		(pts
-			(xy 83.82 269.24)
-			(xy 83.82 262.89))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "b311fa27-fcd0-40bc-b5a3-f5032a14dadc"))
 	(wire
 		(pts
 			(xy 152.4 111.76)
@@ -7239,14 +7617,6 @@
 		(uuid "b4f51dba-4c46-4393-aa94-72e35bc6ecbe"))
 	(wire
 		(pts
-			(xy 71.12 29.21)
-			(xy 74.93 29.21))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "b595529b-ee33-4c27-a37a-bd468f66bec4"))
-	(wire
-		(pts
 			(xy 149.86 170.18)
 			(xy 161.29 170.18))
 		(stroke
@@ -7261,14 +7631,6 @@
 			(width 0)
 			(type default))
 		(uuid "b7edfbff-f5e6-475a-a381-be2078d2d35a"))
-	(wire
-		(pts
-			(xy 171.45 264.16)
-			(xy 179.07 264.16))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "b872f0fd-8dd9-426d-aefa-07b3bcb15d1f"))
 	(wire
 		(pts
 			(xy 379.73 134.62)
@@ -7317,14 +7679,6 @@
 			(width 0)
 			(type default))
 		(uuid "be1944b3-fb1d-490b-9b14-10791ad889c9"))
-	(wire
-		(pts
-			(xy 96.52 267.97)
-			(xy 106.68 267.97))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "be61d805-066a-409b-9ccf-cf88ac4c8ac9"))
 	(wire
 		(pts
 			(xy 238.76 160.02)
@@ -7527,14 +7881,6 @@
 		(uuid "d1d09a2d-1c38-4207-b03f-356049c9e8a8"))
 	(wire
 		(pts
-			(xy 29.21 215.9)
-			(xy 33.02 215.9))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "d24071cb-85e4-4439-8913-a0272ebc0b8e"))
-	(wire
-		(pts
 			(xy 143.51 238.76)
 			(xy 161.29 238.76))
 		(stroke
@@ -7687,14 +8033,6 @@
 		(uuid "ea67b42c-9ac2-4626-b682-dc086696a4a2"))
 	(wire
 		(pts
-			(xy 106.68 267.97)
-			(xy 106.68 270.51))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "ecaa6ffa-8477-4c3a-8d6e-099d42f4fdca"))
-	(wire
-		(pts
 			(xy 137.16 53.34)
 			(xy 156.21 53.34))
 		(stroke
@@ -7759,14 +8097,6 @@
 		(uuid "f3863cab-0492-4dce-8e61-80807a5cf6f3"))
 	(wire
 		(pts
-			(xy 171.45 269.24)
-			(xy 179.07 269.24))
-		(stroke
-			(width 0)
-			(type default))
-		(uuid "f56f3d90-0d0c-44c9-b14d-14e5837b5508"))
-	(wire
-		(pts
 			(xy 33.02 208.28)
 			(xy 38.1 208.28))
 		(stroke
@@ -7813,7 +8143,7 @@
 			(width 0)
 			(type default))
 		(uuid "ff8c6856-e8a0-45dd-b732-f3d193282182"))
-	(label "DS3231_RTC"
+	(text "DS3231_RTC"
 		(at 29.21 215.9 180)
 		(effects
 			(font
@@ -7834,13 +8164,6 @@
 				(size 1.27 1.27))
 			(justify left bottom))
 		(uuid "09560447-53a8-4bdf-b760-8ed3602eeb85"))
-	(label "FAN_PWM"
-		(at 83.82 262.89 90)
-		(effects
-			(font
-				(size 1.27 1.27))
-			(justify left bottom))
-		(uuid "0b9bfa41-839a-497f-aabe-803f615b4834"))
 	(label "LCD_D1"
 		(at 38.1 247.65 0)
 		(effects
@@ -8072,13 +8395,6 @@
 				(size 1.27 1.27))
 			(justify right bottom))
 		(uuid "71db6250-90d9-49d5-a1c3-4f56cbde2120"))
-	(label "HEATER"
-		(at 149.86 167.64 180)
-		(effects
-			(font
-				(size 1.27 1.27))
-			(justify right bottom))
-		(uuid "72d16dfa-4048-4e7c-8bdc-49a5ace267bd"))
 	(label "LCD_D0"
 		(at 38.1 250.19 0)
 		(effects
@@ -8163,14 +8479,14 @@
 				(size 1.27 1.27))
 			(justify left bottom))
 		(uuid "87de46a6-ec32-4e7f-9fa2-e6542d06e443"))
-	(label "PWMConnector"
+	(text "PWMConnector"
 		(at 106.68 270.51 270)
 		(effects
 			(font
 				(size 1.27 1.27))
 			(justify right bottom))
 		(uuid "8f205e13-9338-4c7b-9461-7747c39e7289"))
-	(label "powerIn"
+	(text "powerIn"
 		(at 71.12 29.21 180)
 		(effects
 			(font
@@ -8184,7 +8500,7 @@
 				(size 1.27 1.27))
 			(justify left bottom))
 		(uuid "97c17ad0-efb8-4511-b5d6-6171b0fd6901"))
-	(label "enclosureTempProbe"
+	(text "enclosureTempProbe"
 		(at 33.02 185.42 180)
 		(effects
 			(font
@@ -8275,13 +8591,6 @@
 				(size 1.27 1.27))
 			(justify left bottom))
 		(uuid "c021e912-20b8-4ba3-894f-8c9d24a9906d"))
-	(label "HEATER"
-		(at 179.07 264.16 0)
-		(effects
-			(font
-				(size 1.27 1.27))
-			(justify left bottom))
-		(uuid "c21e63a4-6400-4603-b138-7343a0a9e1ae"))
 	(label "PH_DOWN"
 		(at 139.7 238.76 180)
 		(effects
@@ -8289,7 +8598,7 @@
 				(size 1.27 1.27))
 			(justify right bottom))
 		(uuid "c36a7a8f-ce3c-4fa1-b548-b820b1c7c34d"))
-	(label "waterTempProbe"
+	(text "waterTempProbe"
 		(at 33.02 160.02 180)
 		(effects
 			(font
@@ -8310,7 +8619,7 @@
 				(size 1.27 1.27))
 			(justify left bottom))
 		(uuid "ceb92d75-1399-4976-9972-58a87e77edf7"))
-	(label "screenConnector"
+	(text "screenConnector"
 		(at 29.21 271.78 180)
 		(effects
 			(font
@@ -8345,7 +8654,7 @@
 				(size 1.27 1.27))
 			(justify right bottom))
 		(uuid "ec68e826-14c8-469b-91ff-f70b2883b0b0"))
-	(label "pumpConnector"
+	(text "pumpConnector"
 		(at 179.07 271.78 0)
 		(effects
 			(font
@@ -8566,7 +8875,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify right)))
-		(property "Value" "1.9k"
+		(property "Value" "1.91k"
 			(at 46.99 200.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8574,7 +8883,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify right)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_2"
 			(at 46.228 199.39 90)
 			(hide yes)
 			(show_name no)
@@ -8582,7 +8891,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2007151113_YAGEO-RC0402FR-071K91L_C477598.pdf"
 			(at 44.45 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -8606,7 +8915,49 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R8")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-071K91L"
+			(at 44.45 199.39 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "YAGEO"
+			(at 44.45 199.39 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1.91kohm, 1%, 0402, 62.5mW"
+			(at 44.45 199.39 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C477598"
+			(at 44.45 199.39 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR071K91L/C477598"
+			(at 44.45 199.39 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "1.91kohm 1% 0402 replaces 1.9kohm I2C pullups R7/R8. Nominal increase 0.526%; pullup current at 3.3V changes from 1.737mA to 1.728mA. Update value and verify bus rise time; these are not ADC divider resistors."
+			(at 44.45 199.39 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
+			(at 44.45 199.39 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 222.25 269.24 90)
@@ -8641,7 +8992,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=BLM15AG601SN1%23"
 			(at 222.25 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -8665,7 +9016,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "FB1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "BLM15AG601SN1D"
+			(at 222.25 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 222.25 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "600 ohm at 100MHz; verify analog-rail DC drop"
+			(at 222.25 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C76884"
+			(at 222.25 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-BLM15AG601SN1D/C76884"
+			(at 222.25 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 80.01 21.59 90)
@@ -8752,7 +9133,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+		(property "Footprint" "BrainReviewed:Crystal_SMD_3225-4Pin_3.2x2.5mm_Reviewed_1"
 			(at 156.21 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8760,7 +9141,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-32.pdf"
 			(at 156.21 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -8788,7 +9169,55 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "Y1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "ECS-80-12-33-JGN-TR"
+			(at 156.21 57.15 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "ECS"
+			(at 156.21 57.15 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "8MHz, CL=12pF, ESR max 400 ohm"
+			(at 156.21 57.15 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Release Status" "HOLD: HSE gain margin / drive and sourcing; C4/C5 20pF imply 2pF stray"
+			(at 156.21 57.15 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C2442665"
+			(at 156.21 57.15 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/ECS-ECS_80_12_33_JGNTR/C2442665"
+			(at 156.21 57.15 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "8MHz, 12pF, 3225 four-pad crystal, 400-ohm ESR. Matches nominal frequency/load/package; compare pad geometry. Existing startup, gain-margin and drive hold remains."
+			(at 156.21 57.15 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
+			(at 156.21 57.15 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 367.03 134.62 270)
@@ -8933,7 +9362,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_11"
 			(at 379.73 80.3148 0)
 			(hide yes)
 			(show_name no)
@@ -8941,7 +9370,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8965,7 +9394,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C6")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 81.28 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 81.28 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 81.28 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 81.28 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 81.28 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 184.15 25.4 0)
@@ -9402,7 +9861,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_1"
 			(at 379.73 133.6548 0)
 			(hide yes)
 			(show_name no)
@@ -9410,7 +9869,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -9434,64 +9893,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C8")
-					(unit 1)))))
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 256.54 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2164ef67-89b6-4272-815f-41fd2579258c")
-		(property "Reference" "#PWR077"
-			(at 171.45 250.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 134.62 90)
 			(effects
 				(font
-					(size 1.27 1.27))))
-		(property "Value" "GND"
-			(at 175.26 254.762 0)
-			(show_name no)
-			(do_not_autoplace no)
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 134.62 90)
 			(effects
 				(font
-					(size 1.27 1.27))))
-		(property "Footprint" ""
-			(at 171.45 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 134.62 90)
 			(effects
 				(font
-					(size 1.27 1.27))))
-		(property "Datasheet" ""
-			(at 171.45 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 134.62 90)
 			(effects
 				(font
-					(size 1.27 1.27))))
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 134.62 90)
 			(effects
 				(font
-					(size 1.27 1.27))))
-		(pin "1"
-			(uuid "cd355760-cb85-487e-b9a2-c2efa899de3e"))
-		(instances
-			(project "brain_PCB"
-				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
-					(reference "#PWR077")
-					(unit 1)))))
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
 		(at 36.83 87.63 270)
@@ -9517,7 +9949,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_2"
 			(at 33.02 88.5952 0)
 			(hide yes)
 			(show_name no)
@@ -9525,7 +9957,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 36.83 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -9549,7 +9981,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C2")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 36.83 87.63 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 36.83 87.63 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 36.83 87.63 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 36.83 87.63 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 36.83 87.63 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 367.03 201.93 270)
@@ -9634,7 +10096,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_4"
 			(at 255.27 259.3848 0)
 			(hide yes)
 			(show_name no)
@@ -9642,7 +10104,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 251.46 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -9666,7 +10128,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C11")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 251.46 260.35 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 251.46 260.35 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 251.46 260.35 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 251.46 260.35 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 251.46 260.35 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 143.51 243.84 0)
@@ -9984,7 +10476,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_7"
 			(at 33.02 60.6552 0)
 			(hide yes)
 			(show_name no)
@@ -9992,7 +10484,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 36.83 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -10016,7 +10508,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 36.83 59.69 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 36.83 59.69 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 36.83 59.69 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 36.83 59.69 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 36.83 59.69 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 60.96 201.93 180)
@@ -10037,7 +10559,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify right)))
-		(property "Value" "1.9k"
+		(property "Value" "1.91k"
 			(at 63.5 203.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10045,7 +10567,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify right)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_2"
 			(at 62.738 201.93 90)
 			(hide yes)
 			(show_name no)
@@ -10053,7 +10575,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2007151113_YAGEO-RC0402FR-071K91L_C477598.pdf"
 			(at 60.96 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10077,7 +10599,49 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R7")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-071K91L"
+			(at 60.96 201.93 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "YAGEO"
+			(at 60.96 201.93 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1.91kohm, 1%, 0402, 62.5mW"
+			(at 60.96 201.93 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C477598"
+			(at 60.96 201.93 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR071K91L/C477598"
+			(at 60.96 201.93 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "1.91kohm 1% 0402 replaces 1.9kohm I2C pullups R7/R8. Nominal increase 0.526%; pullup current at 3.3V changes from 1.737mA to 1.728mA. Update value and verify bus rise time; these are not ADC divider resistors."
+			(at 60.96 201.93 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
+			(at 60.96 201.93 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H753ZITx")
 		(at 194.31 119.38 0)
@@ -10423,7 +10987,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "U1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "STM32H753ZIT6"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "STMicroelectronics"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "LQFP144, -40 to 85C"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C730207"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/STMicroelectronics-STM32H753ZIT6/C730207"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 25.4 177.8 180)
@@ -10450,7 +11044,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0324_1x03-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 25.4 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10458,7 +11052,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500324"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 25.4 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10466,7 +11060,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST XH connector 1x03 P2.50mm vertical THT"
 			(at 25.4 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -10485,10 +11079,60 @@
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J5")
 					(unit 1))))
-(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-
-(property "MPN" "436500324" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B3B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "LCSC" ""
+			(at 25.4 177.8 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 25.4 177.8 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 25.4 177.8 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 25.4 177.8 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Selection Notes" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 25.4 177.8 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Cable Contact" "SXH-001T-P0.6"
+			(at 25.4 177.8 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Mating Housing" "XHP-3"
+			(at 25.4 177.8 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 25.4 96.52 180)
@@ -10516,7 +11160,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0224_1x02-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 25.4 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10524,7 +11168,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500224"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 25.4 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10532,7 +11176,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST XH connector 1x02 P2.50mm vertical THT"
 			(at 25.4 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10549,10 +11193,30 @@
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J2")
 					(unit 1))))
-(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-
-(property "MPN" "436500224" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "LCSC" ""
+			(at 25.4 96.52 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 25.4 96.52 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
 		(at 374.65 96.52 90)
@@ -10579,7 +11243,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_7"
 			(at 378.46 95.5548 0)
 			(hide yes)
 			(show_name no)
@@ -10587,7 +11251,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 374.65 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10611,7 +11275,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 374.65 96.52 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 374.65 96.52 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 374.65 96.52 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 374.65 96.52 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 374.65 96.52 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 41.91 265.43 0)
@@ -10695,7 +11389,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_1"
 			(at 149.86 42.418 90)
 			(hide yes)
 			(show_name no)
@@ -10727,7 +11421,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R4")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-0710KL"
+			(at 149.86 40.64 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 149.86 40.64 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 149.86 40.64 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C60490"
+			(at 149.86 40.64 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490"
+			(at 149.86 40.64 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 384.81 96.52 270)
@@ -10788,8 +11512,8 @@
 					(reference "#PWR048")
 					(unit 1)))))
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x08")
-		(at 163.83 275.59 270)
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 161.29 275.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10800,37 +11524,37 @@
 		(fields_autoplaced yes)
 		(uuid "3763e30a-c6dc-46e6-ad1d-d10cc7e9619b")
 		(property "Reference" "J9"
-			(at 162.56 279.4 90)
+			(at 160.02 279.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Value" "Conn_01x08"
-			(at 162.56 281.94 90)
+		(property "Value" "PUMP BOARD"
+			(at 160.02 281.94 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0824_1x08-1MP_P3.00mm_Vertical"
-			(at 163.83 275.59 0)
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
+			(at 161.29 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500824"
-			(at 163.83 275.59 0)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 161.29 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 163.83 275.59 0)
+		(property "Description" "JST XH connector 1x06 P2.50mm vertical THT"
+			(at 161.29 275.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10847,10 +11571,6 @@
 			(uuid "54a8b521-e96c-4479-80e9-2a9315ac3308"))
 		(pin "4"
 			(uuid "374477b5-88c8-4de4-b707-06ebf86fccdc"))
-		(pin "8"
-			(uuid "72b1cd51-6146-40fb-8226-f6261794b4a2"))
-		(pin "7"
-			(uuid "d81ce59d-0105-4f92-a905-a5bdc1844b77"))
 		(pin "3"
 			(uuid "333dd350-9e5f-4b2e-a849-e24f422a5d20"))
 		(instances
@@ -10858,10 +11578,222 @@
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J9")
 					(unit 1))))
-(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-
-(property "MPN" "436500824" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B6B-XH-A(LF)(SN)"
+			(at -2.54 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "LCSC" ""
+			(at 161.29 275.59 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 161.29 275.59 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "8-circuit vertical through-hole Micro-Fit. Replace SMT footprint and verify signal pin numbering and locking/locating holes."
+			(at 161.29 275.59 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
+			(at 161.29 275.59 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Selection Notes" "Vertical Micro-Fit replacement; PCB footprint updated where required. Preserve numbered pin functions; verify cable mating cavity view."
+			(at 161.29 275.59 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 195.58 251.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2176285-ccf1-45a7-9ba4-67d403551208")
+		(property "Reference" "J15"
+			(at 195.58 246.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "COOLER"
+			(at 195.58 256.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 195.58 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 195.58 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "JST XH connector 1x02 P2.50mm vertical THT"
+			(at 195.58 251.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "2"
+			(uuid "46684f99-2681-4e3c-b051-c261ecb6d542"))
+		(pin "1"
+			(uuid "e8fc1813-cd11-49fc-a3ab-2cc8097927af"))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "J15")
+					(unit 1))))
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 195.58 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 195.58 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "LCSC" ""
+			(at 195.58 251.46 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 195.58 251.46 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 256.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2ae97c5-7cb6-4497-b2e8-ca5547a39c22")
+		(property "Reference" "#PWR090"
+			(at 190.5 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "GND"
+			(at 190.5 260.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(justify right)))
+		(property "Footprint" ""
+			(at 190.5 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 190.5 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "13a01275-eaf9-4fc4-ae5b-b6dbbf4054f1"))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "#PWR090")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 166.37 270.51)
+			(xy 171.45 270.51))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5bc99d65-357f-477e-a5c7-17efb35cb70e"))
+	(wire
+		(pts
+			(xy 179.07 251.46)
+			(xy 190.5 251.46))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ce1632ed-4be8-4025-97f9-700ec14b7092"))
+	(wire
+		(pts
+			(xy 190.5 254.0)
+			(xy 190.5 256.54))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "dc5d09eb-4953-436d-bae5-168649de0c5d"))
+	(text "J15 COOLER -> power board J6 (1 COOL_EN, 2 GND)\nJ9 -> pump board J1, pin-for-pin"
+		(exclude_from_sim no)
+		(at 181.61 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27))
+			(justify left bottom))
+		(uuid "96d51a4e-12e5-4e39-8304-519200347d64"))
 	(symbol
 		(lib_id "Device:C")
 		(at 259.08 162.56 90)
@@ -10887,7 +11819,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_4"
 			(at 262.89 161.5948 0)
 			(hide yes)
 			(show_name no)
@@ -10895,7 +11827,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H100JA01%23"
 			(at 259.08 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -10919,7 +11851,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C9")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM1555C1H100JA01D"
+			(at 259.08 162.56 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 259.08 162.56 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "10pF 50V C0G"
+			(at 259.08 162.56 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C76946"
+			(at 259.08 162.56 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM1555C1H100JA01D/C76946"
+			(at 259.08 162.56 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 53.34 146.05 0)
@@ -11038,7 +12000,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "UARTdebugHeader1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "61300311121"
+			(at 25.4 45.72 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 25.4 45.72 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Release Status" "HOLD: confirm header drawing / exposed height with LCD/debug cable"
+			(at 25.4 45.72 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C2915006"
+			(at 25.4 45.72 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/WurthElektronik-61300311121/C2915006"
+			(at 25.4 45.72 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 267.97 154.94 90)
@@ -11682,7 +12674,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "SW1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "PTS645SM43SMTR92 LFS"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "C&K"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "SMT push switch"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C221880"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/CK-PTS645SM43SMTR92LFS/C221880"
+			(at 149.86 35.56 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
 		(at 375.92 153.67 90)
@@ -11709,7 +12731,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_1"
 			(at 379.73 152.7048 0)
 			(hide yes)
 			(show_name no)
@@ -11717,7 +12739,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11741,7 +12763,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C9")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 153.67 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 153.67 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 153.67 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 153.67 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 153.67 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 36.83 200.66 180)
@@ -11885,7 +12937,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_12"
 			(at 255.27 155.9052 0)
 			(hide yes)
 			(show_name no)
@@ -11893,7 +12945,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H100JA01%23"
 			(at 259.08 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -11917,7 +12969,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C8")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM1555C1H100JA01D"
+			(at 259.08 154.94 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 259.08 154.94 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "10pF 50V C0G"
+			(at 259.08 154.94 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C76946"
+			(at 259.08 154.94 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM1555C1H100JA01D/C76946"
+			(at 259.08 154.94 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 386.08 134.62 270)
@@ -12120,7 +13202,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_7"
 			(at 379.73 249.2248 0)
 			(hide yes)
 			(show_name no)
@@ -12128,7 +13210,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R60J106ME15%23"
 			(at 375.92 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -12152,7 +13234,43 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "rescaps_C2")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R60J106ME15D"
+			(at 375.92 250.19 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 250.19 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "10uF 6.3V X5R"
+			(at 375.92 250.19 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Release Status" "HOLD: sourcing and effective 3.3V bulk capacitance verification"
+			(at 375.92 250.19 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C412251"
+			(at 375.92 250.19 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/404009-GRM155R60J106ME15D/C412251"
+			(at 375.92 250.19 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 267.97 162.56 90)
@@ -12240,7 +13358,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify right)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_1"
 			(at 55.118 148.59 90)
 			(hide yes)
 			(show_name no)
@@ -12272,7 +13390,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R5")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-074K7L"
+			(at 53.34 148.59 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 53.34 148.59 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 53.34 148.59 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C105871"
+			(at 53.34 148.59 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR074K7L/C105871"
+			(at 53.34 148.59 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
 		(at 151.13 193.04 90)
@@ -12298,7 +13446,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_6"
 			(at 154.94 192.0748 0)
 			(hide yes)
 			(show_name no)
@@ -12306,7 +13454,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R61A225KE95%23"
 			(at 151.13 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -12330,7 +13478,43 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C7")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R61A225KE95D"
+			(at 151.13 193.04 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 151.13 193.04 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "2.2uF 10V X5R"
+			(at 151.13 193.04 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Release Status" "HOLD: verify effective capacitance and ESR at VCAP bias"
+			(at 151.13 193.04 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77002"
+			(at 151.13 193.04 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R61A225KE95D/C77002"
+			(at 151.13 193.04 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 36.83 265.43 180)
@@ -12885,7 +14069,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_9"
 			(at 153.67 21.8948 0)
 			(hide yes)
 			(show_name no)
@@ -12893,7 +14077,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 149.86 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -12917,7 +14101,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C6")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 149.86 22.86 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 149.86 22.86 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 149.86 22.86 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 149.86 22.86 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 149.86 22.86 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 25.4 26.67 180)
@@ -12980,7 +14194,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "SWDdebugHeader1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "61300411121"
+			(at 25.4 26.67 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 25.4 26.67 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Release Status" "HOLD: confirm header drawing / exposed height with LCD/debug cable"
+			(at 25.4 26.67 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C5184785"
+			(at 25.4 26.67 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/WurthElektronik-61300411121/C5184785"
+			(at 25.4 26.67 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 44.45 64.77 270)
@@ -13007,7 +14251,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_2"
 			(at 44.45 62.992 90)
 			(hide yes)
 			(show_name no)
@@ -13039,7 +14283,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-071KL"
+			(at 44.45 64.77 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 44.45 64.77 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 44.45 64.77 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C106235"
+			(at 44.45 64.77 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR071KL/C106235"
+			(at 44.45 64.77 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 36.83 29.21 270)
@@ -13125,7 +14399,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0324_1x03-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 25.4 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13133,7 +14407,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500324"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 25.4 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13141,7 +14415,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST XH connector 1x03 P2.50mm vertical THT"
 			(at 25.4 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13160,12 +14434,62 @@
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J4")
 					(unit 1))))
-(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-
-(property "MPN" "436500324" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B3B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "LCSC" ""
+			(at 25.4 152.4 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 25.4 152.4 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 25.4 152.4 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 25.4 152.4 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Selection Notes" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 25.4 152.4 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Cable Contact" "SXH-001T-P0.6"
+			(at 25.4 152.4 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Mating Housing" "XHP-3"
+			(at 25.4 152.4 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
+		(lib_id "Connector_Generic:Conn_01x05")
 		(at 91.44 274.32 270)
 		(unit 1)
 		(body_style 1)
@@ -13183,14 +14507,14 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Value" "Conn_01x06"
+		(property "Value" "LIGHT BOARD"
 			(at 80.01 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0624_1x06-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 91.44 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -13198,7 +14522,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500624"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 91.44 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -13206,7 +14530,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST XH connector 1x05 P2.50mm vertical THT"
 			(at 91.44 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -13222,8 +14546,6 @@
 			(uuid "841219d2-189a-4cdf-8926-269119b2644e"))
 		(pin "5"
 			(uuid "5de4f0ec-c9c2-446b-b0be-f1cf2ad2ea97"))
-		(pin "6"
-			(uuid "6682ac37-e547-4c30-9df3-128e425be275"))
 		(pin "1"
 			(uuid "a30aabb1-7b64-49b2-90ab-b2a1dbd92b92"))
 		(instances
@@ -13231,10 +14553,48 @@
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J8")
 					(unit 1))))
-(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-
-(property "MPN" "436500624" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B5B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "LCSC" ""
+			(at 91.44 274.32 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 91.44 274.32 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 91.44 274.32 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 91.44 274.32 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Selection Notes" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 91.44 274.32 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 367.03 81.28 270)
@@ -13321,7 +14681,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0224_1x02-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 25.4 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13329,7 +14689,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500224"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 25.4 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13337,7 +14697,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST XH connector 1x02 P2.50mm vertical THT"
 			(at 25.4 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -13354,10 +14714,30 @@
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J1")
 					(unit 1))))
-(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-
-(property "MPN" "436500224" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "LCSC" ""
+			(at 25.4 68.58 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 25.4 68.58 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 44.45 195.58 0)
@@ -13678,7 +15058,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_1"
 			(at 141.732 273.05 90)
 			(hide yes)
 			(show_name no)
@@ -13710,7 +15090,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R16")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-0710KL"
+			(at 143.51 273.05 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 143.51 273.05 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 143.51 273.05 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C60490"
+			(at 143.51 273.05 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490"
+			(at 143.51 273.05 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
 		(at 251.46 269.24 90)
@@ -13736,7 +15146,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_4"
 			(at 255.27 268.2748 0)
 			(hide yes)
 			(show_name no)
@@ -13744,7 +15154,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R61A105KE15%23"
 			(at 251.46 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -13768,7 +15178,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C10")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R61A105KE15D"
+			(at 251.46 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 251.46 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1uF 10V X5R"
+			(at 251.46 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C76999"
+			(at 251.46 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R61A105KE15D/C76999"
+			(at 251.46 269.24 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 386.08 34.29 270)
@@ -13854,7 +15294,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0224_1x02-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 69.85 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -13862,7 +15302,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500224"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 69.85 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -13870,7 +15310,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST XH connector 1x02 P2.50mm vertical THT"
 			(at 69.85 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -13887,10 +15327,30 @@
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J10")
 					(unit 1))))
-(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-
-(property "MPN" "436500224" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "LCSC" ""
+			(at 69.85 24.13 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 69.85 24.13 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 38.1 180.34 90)
@@ -14034,7 +15494,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_6"
 			(at 379.73 49.8348 0)
 			(hide yes)
 			(show_name no)
@@ -14042,7 +15502,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14066,7 +15526,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C4")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 50.8 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 50.8 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 50.8 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 50.8 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 50.8 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 367.03 168.91 270)
@@ -14152,7 +15642,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_6"
 			(at 379.73 66.3448 0)
 			(hide yes)
 			(show_name no)
@@ -14160,7 +15650,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -14184,7 +15674,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C5")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 67.31 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 67.31 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 67.31 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 67.31 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 67.31 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 213.36 269.24 90)
@@ -14269,7 +15789,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_3"
 			(at 35.56 254.508 90)
 			(hide yes)
 			(show_name no)
@@ -14301,7 +15821,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R9")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-0747RL"
+			(at 35.56 252.73 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 35.56 252.73 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 35.56 252.73 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C137973"
+			(at 35.56 252.73 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0747RL/C137973"
+			(at 35.56 252.73 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 44.45 121.92 270)
@@ -14328,7 +15878,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_2"
 			(at 44.45 120.142 90)
 			(hide yes)
 			(show_name no)
@@ -14360,7 +15910,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R3")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-071KL"
+			(at 44.45 121.92 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 44.45 121.92 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 44.45 121.92 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C106235"
+			(at 44.45 121.92 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR071KL/C106235"
+			(at 44.45 121.92 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 367.03 250.19 270)
@@ -14446,7 +16026,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_13"
 			(at 379.73 185.7248 0)
 			(hide yes)
 			(show_name no)
@@ -14454,7 +16034,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -14478,7 +16058,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C11")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 186.69 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 186.69 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 186.69 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 186.69 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 186.69 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 143.51 234.95 0)
@@ -14507,7 +16117,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_1"
 			(at 141.732 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -14539,7 +16149,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R13")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-0710KL"
+			(at 143.51 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 143.51 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 143.51 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C60490"
+			(at 143.51 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490"
+			(at 143.51 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
 		(at 375.92 236.22 90)
@@ -14566,7 +16206,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_7"
 			(at 379.73 235.2548 0)
 			(hide yes)
 			(show_name no)
@@ -14574,7 +16214,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R60J106ME15%23"
 			(at 375.92 236.22 0)
 			(hide yes)
 			(show_name no)
@@ -14598,7 +16238,43 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "rescaps_C1")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R60J106ME15D"
+			(at 375.92 236.22 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 236.22 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "10uF 6.3V X5R"
+			(at 375.92 236.22 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Release Status" "HOLD: sourcing and effective 3.3V bulk capacitance verification"
+			(at 375.92 236.22 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C412251"
+			(at 375.92 236.22 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/404009-GRM155R60J106ME15D/C412251"
+			(at 375.92 236.22 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 171.45 234.95 0)
@@ -14627,7 +16303,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_1"
 			(at 169.672 234.95 90)
 			(hide yes)
 			(show_name no)
@@ -14659,7 +16335,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R12")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-0710KL"
+			(at 171.45 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 171.45 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 171.45 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C60490"
+			(at 171.45 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490"
+			(at 171.45 234.95 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 386.08 250.19 270)
@@ -14747,7 +16453,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_1"
 			(at 169.672 247.65 90)
 			(hide yes)
 			(show_name no)
@@ -14779,7 +16485,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R11")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-0710KL"
+			(at 171.45 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 171.45 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 171.45 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C60490"
+			(at 171.45 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490"
+			(at 171.45 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 44.45 92.71 270)
@@ -14806,7 +16542,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_2"
 			(at 44.45 90.932 90)
 			(hide yes)
 			(show_name no)
@@ -14838,7 +16574,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R2")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-071KL"
+			(at 44.45 92.71 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 44.45 92.71 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 44.45 92.71 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C106235"
+			(at 44.45 92.71 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR071KL/C106235"
+			(at 44.45 92.71 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 33.02 64.77 180)
@@ -14980,7 +16746,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_7"
 			(at 379.73 33.3248 0)
 			(hide yes)
 			(show_name no)
@@ -14988,7 +16754,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -15012,7 +16778,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C3")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 34.29 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 34.29 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 34.29 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 34.29 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 34.29 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 386.08 217.17 270)
@@ -15097,7 +16893,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_1"
 			(at 154.94 199.6948 0)
 			(hide yes)
 			(show_name no)
@@ -15105,7 +16901,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R61A225KE95%23"
 			(at 151.13 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -15129,68 +16925,43 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "VCAP_C1")
-					(unit 1)))))
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 260.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bff1fc79-5ec1-48a8-ab1e-656eed018496")
-		(property "Reference" "R10"
-			(at 173.99 259.0799 0)
-			(show_name no)
-			(do_not_autoplace no)
+					(unit 1))))
+		(property "MPN" "GRM155R61A225KE95D"
+			(at 151.13 200.66 90)
 			(effects
 				(font
-					(size 1.27 1.27))
-				(justify left)))
-		(property "Value" "10k"
-			(at 173.99 261.6199 0)
-			(show_name no)
-			(do_not_autoplace no)
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 151.13 200.66 90)
 			(effects
 				(font
-					(size 1.27 1.27))
-				(justify left)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 169.672 260.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "2.2uF 10V X5R"
+			(at 151.13 200.66 90)
 			(effects
 				(font
-					(size 1.27 1.27))))
-		(property "Datasheet" ""
-			(at 171.45 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+					(size 1 1)))
+			(hide yes))
+		(property "Release Status" "HOLD: verify effective capacitance and ESR at VCAP bias"
+			(at 151.13 200.66 90)
 			(effects
 				(font
-					(size 1.27 1.27))))
-		(property "Description" "Resistor"
-			(at 171.45 260.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77002"
+			(at 151.13 200.66 90)
 			(effects
 				(font
-					(size 1.27 1.27))))
-		(pin "2"
-			(uuid "a3385fa3-9c04-4f2a-acfd-69e39168227f"))
-		(pin "1"
-			(uuid "83410d17-3c1f-45fb-b52a-838f7bb63063"))
-		(instances
-			(project "brain_PCB"
-				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
-					(reference "R10")
-					(unit 1)))))
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R61A225KE95D/C77002"
+			(at 151.13 200.66 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 33.02 121.92 180)
@@ -15508,7 +17279,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_13"
 			(at 379.73 200.9648 0)
 			(hide yes)
 			(show_name no)
@@ -15516,7 +17287,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -15540,7 +17311,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C12")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 201.93 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 201.93 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 201.93 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 201.93 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 201.93 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 25.4 205.74 180)
@@ -15567,7 +17368,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0424_1x04-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 25.4 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15575,7 +17376,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500424"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 25.4 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15583,7 +17384,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST XH connector 1x04 P2.50mm vertical THT"
 			(at 25.4 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -15604,10 +17405,30 @@
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J6")
 					(unit 1))))
-(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-
-(property "MPN" "436500424" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B4B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "LCSC" ""
+			(at 25.4 205.74 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 25.4 205.74 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 35.56 21.59 90)
@@ -15813,7 +17634,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_1"
 			(at 141.732 261.62 90)
 			(hide yes)
 			(show_name no)
@@ -15845,7 +17666,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R15")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-0710KL"
+			(at 143.51 261.62 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 143.51 261.62 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 143.51 261.62 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C60490"
+			(at 143.51 261.62 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490"
+			(at 143.51 261.62 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 78.74 25.4 180)
@@ -15930,7 +17781,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_1"
 			(at 379.73 167.9448 0)
 			(hide yes)
 			(show_name no)
@@ -15938,7 +17789,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -15962,7 +17813,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C10")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 168.91 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 168.91 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 168.91 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 168.91 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 168.91 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 175.26 25.4 90)
@@ -16048,7 +17929,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_5"
 			(at 379.73 216.2048 0)
 			(hide yes)
 			(show_name no)
@@ -16056,7 +17937,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -16080,7 +17961,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C13")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 217.17 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 217.17 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 217.17 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 217.17 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 217.17 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 143.51 247.65 0)
@@ -16109,7 +18020,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_1"
 			(at 141.732 247.65 90)
 			(hide yes)
 			(show_name no)
@@ -16141,7 +18052,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R14")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-0710KL"
+			(at 143.51 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 143.51 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 143.51 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C60490"
+			(at 143.51 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0710KL/C60490"
+			(at 143.51 247.65 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 215.9 27.94 270)
@@ -16283,7 +18224,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J7")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "61301411121"
+			(at 25.4 250.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 25.4 250.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Release Status" "HOLD: confirm header drawing / exposed height with LCD/debug cable"
+			(at 25.4 250.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C5907899"
+			(at 25.4 250.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/WurthElektronik-61301411121/C5907899"
+			(at 25.4 250.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 196.85 25.4 0)
@@ -16427,7 +18398,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_6"
 			(at 379.73 113.3348 0)
 			(hide yes)
 			(show_name no)
@@ -16435,7 +18406,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -16459,7 +18430,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C7")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 114.3 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 114.3 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 114.3 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 114.3 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 114.3 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 143.51 231.14 180)
@@ -16599,7 +18600,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_10"
 			(at 33.02 117.8052 0)
 			(hide yes)
 			(show_name no)
@@ -16607,7 +18608,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 36.83 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -16631,7 +18632,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C3")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 36.83 116.84 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 36.83 116.84 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 36.83 116.84 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 36.83 116.84 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 36.83 116.84 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 386.08 17.78 270)
@@ -16833,7 +18864,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_8"
 			(at 137.16 52.3748 0)
 			(hide yes)
 			(show_name no)
@@ -16841,7 +18872,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H200JA01%23"
 			(at 133.35 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16865,7 +18896,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C4")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM1555C1H200JA01D"
+			(at 133.35 53.34 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 133.35 53.34 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "20pF 50V C0G"
+			(at 133.35 53.34 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C76959"
+			(at 133.35 53.34 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM1555C1H200JA01D/C76959"
+			(at 133.35 53.34 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 53.34 171.45 0)
@@ -16925,8 +18986,8 @@
 					(reference "#PWR068")
 					(unit 1)))))
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 25.4 125.73 180)
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 25.4 123.19 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16943,7 +19004,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Value" "Conn_01x02"
+		(property "Value" "LEVEL SENSOR - ADAFRUIT 4965"
 			(at 31.242 128.778 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16951,7 +19012,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify left)))
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0224_1x02-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 			(at 25.4 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16959,7 +19020,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/436500224"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
 			(at 25.4 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16967,7 +19028,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "JST XH connector 1x03 P2.50mm vertical THT"
 			(at 25.4 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16984,10 +19045,62 @@
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J3")
 					(unit 1))))
-(property "Manufacturer" "Molex" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-
-(property "MPN" "436500224" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
-)
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "MPN" "B3B-XH-A(LF)(SN)"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(pin "3"
+			(uuid "ed7f0aad-b3db-476b-a251-8f2da8816bed"))
+		(property "LCSC" ""
+			(at 25.4 123.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 25.4 123.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 25.4 123.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 25.4 123.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Selection Notes" "JST XH 2.50mm vertical THT, hand-soldered (Taiss XH kit, Amazon B0FDK5RCBH). 3A/pin max. Replaced Micro-Fit 2026-09-18."
+			(at 25.4 123.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Cable Contact" "SXH-001T-P0.6"
+			(at 25.4 123.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Mating Housing" "XHP-3"
+			(at 25.4 123.19 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:GND")
 		(at 38.1 154.94 90)
@@ -17075,7 +19188,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify right)))
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+		(property "Footprint" "BrainReviewed:Crystal_SMD_3215-2Pin_3.2x1.5mm_Reviewed_1"
 			(at 242.57 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17107,7 +19220,43 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "Y2")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "ABS07-32.768KHZ-7-T"
+			(at 242.57 158.75 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Abracon"
+			(at 242.57 158.75 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "32.768kHz, CL=7pF"
+			(at 242.57 158.75 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Release Status" "HOLD: LSE drive/startup and sourcing; C8/C9 10pF imply 2pF stray"
+			(at 242.57 158.75 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C276424"
+			(at 242.57 158.75 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/AbraconLLC-ABS07_32_768KHZ_7T/C276424"
+			(at 242.57 158.75 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 53.34 173.99 180)
@@ -17136,7 +19285,7 @@
 				(font
 					(size 1.27 1.27))
 				(justify right)))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_6"
 			(at 55.118 173.99 90)
 			(hide yes)
 			(show_name no)
@@ -17168,7 +19317,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R6")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "RC0402FR-074K7L"
+			(at 53.34 173.99 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 53.34 173.99 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1%, 0402, 1/16W"
+			(at 53.34 173.99 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C105871"
+			(at 53.34 173.99 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR074K7L/C105871"
+			(at 53.34 173.99 180)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 386.08 201.93 270)
@@ -17369,7 +19548,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_4"
 			(at 129.54 61.9252 0)
 			(hide yes)
 			(show_name no)
@@ -17377,7 +19556,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM1555C1H200JA01%23"
 			(at 133.35 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -17401,7 +19580,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C5")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM1555C1H200JA01D"
+			(at 133.35 60.96 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 133.35 60.96 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "20pF 50V C0G"
+			(at 133.35 60.96 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C76959"
+			(at 133.35 60.96 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM1555C1H200JA01D/C76959"
+			(at 133.35 60.96 270)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 207.01 25.4 0)
@@ -17486,7 +19695,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_7"
 			(at 379.73 16.8148 0)
 			(hide yes)
 			(show_name no)
@@ -17494,7 +19703,7 @@
 			(effects
 				(font
 					(size 1.27 1.27))))
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.murata.com/en-us/products/productdetail?partno=GRM155R71H104KE14%23"
 			(at 375.92 17.78 0)
 			(hide yes)
 			(show_name no)
@@ -17518,7 +19727,37 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "decoupl_C2")
-					(unit 1)))))
+					(unit 1))))
+		(property "MPN" "GRM155R71H104KE14D"
+			(at 375.92 17.78 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 375.92 17.78 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "100nF 50V X7R"
+			(at 375.92 17.78 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "LCSC" "C77020"
+			(at 375.92 17.78 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 375.92 17.78 90)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "power:+3V3")
 		(at 35.56 175.26 270)
@@ -17785,7 +20024,19 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "J11")
-					(unit 1)))))
+					(unit 1))))
+		(property "LCSC" "C5143397"
+			(at 444.5 63.5 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/5762033-USB4110_GFA/C5143397"
+			(at 444.5 63.5 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2SC6")
 		(at 520.7 63.5 0)
@@ -17832,7 +20083,19 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "U2")
-					(unit 1)))))
+					(unit 1))))
+		(property "LCSC" "C7519"
+			(at 520.7 63.5 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/STMicroelectronics-USBLC62SC6/C7519"
+			(at 520.7 63.5 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 477.52 101.6 0)
@@ -17851,7 +20114,7 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_5"
 			(at 484.52 101.6 0)
 			(effects
 				(font
@@ -17879,7 +20142,19 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R17")
-					(unit 1)))))
+					(unit 1))))
+		(property "LCSC" "C105872"
+			(at 477.52 101.6 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR075K1L/C105872"
+			(at 477.52 101.6 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 510.54 101.6 0)
@@ -17898,7 +20173,7 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_5"
 			(at 517.54 101.6 0)
 			(effects
 				(font
@@ -17926,7 +20201,19 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R18")
-					(unit 1)))))
+					(unit 1))))
+		(property "LCSC" "C105872"
+			(at 510.54 101.6 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR075K1L/C105872"
+			(at 510.54 101.6 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 477.52 149.86 0)
@@ -17945,7 +20232,7 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_6"
 			(at 484.52 149.86 0)
 			(effects
 				(font
@@ -17973,7 +20260,19 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R19")
-					(unit 1)))))
+					(unit 1))))
+		(property "LCSC" "C138003"
+			(at 477.52 149.86 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0733KL/C138003"
+			(at 477.52 149.86 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:R")
 		(at 515.62 149.86 0)
@@ -17992,7 +20291,7 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:R_0402_1005Metric_Reviewed_4"
 			(at 522.62 149.86 0)
 			(effects
 				(font
@@ -18020,7 +20319,19 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "R20")
-					(unit 1)))))
+					(unit 1))))
+		(property "LCSC" "C137932"
+			(at 515.62 149.86 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0402FR0782KL/C137932"
+			(at 515.62 149.86 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
 		(at 551.18 63.5 0)
@@ -18039,7 +20350,7 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_3"
 			(at 558.18 63.5 0)
 			(effects
 				(font
@@ -18067,7 +20378,19 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C12")
-					(unit 1)))))
+					(unit 1))))
+		(property "LCSC" "C77020"
+			(at 551.18 63.5 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R71H104KE14D/C77020"
+			(at 551.18 63.5 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Device:C")
 		(at 551.18 149.86 0)
@@ -18086,7 +20409,7 @@
 			(effects
 				(font
 					(size 1.0 1.0))))
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "BrainReviewed:C_0402_1005Metric_Reviewed_3"
 			(at 558.18 149.86 0)
 			(effects
 				(font
@@ -18114,7 +20437,19 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "C13")
-					(unit 1)))))
+					(unit 1))))
+		(property "LCSC" "C76999"
+			(at 551.18 149.86 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM155R61A105KE15D/C76999"
+			(at 551.18 149.86 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 482.6 200.66 0)
@@ -18161,7 +20496,19 @@
 			(project "brain_PCB"
 				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
 					(reference "SW2")
-					(unit 1)))))
+					(unit 1))))
+		(property "LCSC" "C221880"
+			(at 482.6 200.66 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/CK-PTS645SM43SMTR92LFS/C221880"
+			(at 482.6 200.66 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
 	(wire
 		(pts
 			(xy 459.74 48.26)
@@ -18642,4 +20989,1766 @@
 			(font
 				(size 1.27 1.27))
 			(justify left))
-		(uuid "60b0b7a6-9eb2-454c-82e5-c14d78733b9f")))
+		(uuid "60b0b7a6-9eb2-454c-82e5-c14d78733b9f"))
+	(no_connect
+		(at 161.29 167.64)
+		(uuid "f3660e2b-47ad-4130-a8f8-5cb66f727b74"))
+	(wire
+		(pts
+			(xy 227.33 88.9)
+			(xy 238.76 88.9))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cf43e0d5-ba9b-44ee-8b52-fb5c29727716"))
+	(label "FAN2_PWM"
+		(at 238.76 88.9 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "76ffb685-8f6d-4662-83de-87bfebb63b01"))
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 548.64 261.62 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cb011d45-b5e3-4d85-a67b-f1621df05841")
+		(property "Reference" "J12"
+			(at 558.8 252.73 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "FAN 1 - P12 PRO"
+			(at 558.8 255.27 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 558.8 255.27 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/470531000"
+			(at 558.8 255.27 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "470531000"
+			(at 558.8 255.27 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Molex"
+			(at 558.8 255.27 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "J12")
+					(unit 1))))
+		(pin "1"
+			(uuid "b2a49f8c-a939-495b-ba56-ee396aea9baa"))
+		(pin "2"
+			(uuid "049d6946-5d62-4f1b-9966-df1fe29b2615"))
+		(pin "3"
+			(uuid "2e746359-6b10-4501-89ef-664d264203de"))
+		(pin "4"
+			(uuid "54a174e3-d251-45ba-9646-db50029ff3b8"))
+		(property "LCSC" "C240840"
+			(at 548.64 261.62 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MOLEX-470531000/C240840"
+			(at 548.64 261.62 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 543.56 259.08)
+			(xy 533.4 259.08))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "74614c3c-e149-47e9-a302-8967ad22ac83"))
+	(label "GND"
+		(at 533.4 259.08 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "d2f60c8e-b806-4caf-98db-13bd532e84c9"))
+	(wire
+		(pts
+			(xy 543.56 261.62)
+			(xy 533.4 261.62))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ca99b7a5-0a5a-4176-8adf-0020f753916d"))
+	(label "FAN_12V"
+		(at 533.4 261.62 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "1d7d0581-c32b-4194-a6a8-53b10dd82d36"))
+	(no_connect
+		(at 543.56 264.16)
+		(uuid "1347b4d8-128f-49ae-8439-5215a4842370"))
+	(wire
+		(pts
+			(xy 543.56 266.7)
+			(xy 533.4 266.7))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "62e2dad3-f9f5-4c87-817b-72d070499098"))
+	(label "FAN1_CTL"
+		(at 533.4 266.7 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "bb6158b2-2921-4050-9ce1-03b16d348a2a"))
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 548.64 294.64 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afdd2075-d5e5-4388-ae26-ad3f93f6b476")
+		(property "Reference" "J13"
+			(at 558.8 285.75 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "FAN 2 - P12 PRO"
+			(at 558.8 288.29 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Connector:FanPinHeader_1x04_P2.54mm_Vertical"
+			(at 558.8 288.29 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/470531000"
+			(at 558.8 288.29 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "470531000"
+			(at 558.8 288.29 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Molex"
+			(at 558.8 288.29 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "J13")
+					(unit 1))))
+		(pin "1"
+			(uuid "78591eaa-befe-4e2f-a2aa-f8646daadd58"))
+		(pin "2"
+			(uuid "640f7ee7-243e-43be-bfef-1ae74b191bb7"))
+		(pin "3"
+			(uuid "0c951ae5-e84c-4120-8083-af66cbaa1362"))
+		(pin "4"
+			(uuid "fec9cb13-c441-4096-a115-05d61be5b563"))
+		(property "LCSC" "C240840"
+			(at 548.64 294.64 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MOLEX-470531000/C240840"
+			(at 548.64 294.64 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 543.56 292.1)
+			(xy 533.4 292.1))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c9304516-4c00-4d4a-a366-439f3284abad"))
+	(label "GND"
+		(at 533.4 292.1 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "25215321-ab09-4047-9362-5d4a85e5163e"))
+	(wire
+		(pts
+			(xy 543.56 294.64)
+			(xy 533.4 294.64))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9dd7ec9f-e6c5-451d-b03b-3713486787cb"))
+	(label "FAN_12V"
+		(at 533.4 294.64 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "f7ac909b-f7ff-418c-9355-09ba2688c760"))
+	(no_connect
+		(at 543.56 297.18)
+		(uuid "c637a9ea-6924-4a0b-8a22-429850952492"))
+	(wire
+		(pts
+			(xy 543.56 299.72)
+			(xy 533.4 299.72))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f089954b-8376-4f52-8a14-e6771ba796cd"))
+	(label "FAN2_CTL"
+		(at 533.4 299.72 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "14dd64f1-6100-4c71-9516-5c678366a995"))
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 431.8 345.44 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3761ba8d-3013-46d3-b0b2-9e9d7cc7a9a3")
+		(property "Reference" "J14"
+			(at 441.96 336.55 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "12V FAN POWER"
+			(at 441.96 339.09 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+			(at 441.96 339.09 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf"
+			(at 441.96 339.09 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "B2B-XH-A(LF)(SN)"
+			(at 441.96 339.09 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "JST (XH-compatible clone OK)"
+			(at 441.96 339.09 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "J14")
+					(unit 1))))
+		(pin "1"
+			(uuid "26ff08e0-0d68-47aa-887e-c1f3a1300dcd"))
+		(pin "2"
+			(uuid "027b1009-af40-4d2b-807c-d0c210448a60"))
+		(property "LCSC" ""
+			(at 431.8 345.44 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" ""
+			(at 431.8 345.44 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 426.72 345.44)
+			(xy 419.1 345.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cb456c44-a8fb-4a07-bd87-068915292d9f"))
+	(label "FAN_12V"
+		(at 419.1 345.44 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "b4abd595-fd52-46b7-bc67-769adb699c7f"))
+	(wire
+		(pts
+			(xy 426.72 347.98)
+			(xy 419.1 347.98))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4267df6a-9f14-442d-9a17-7361f90c1a37"))
+	(label "GND"
+		(at 419.1 347.98 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "9fc3ad09-c75a-477a-895b-272dc90f6026"))
+	(symbol
+		(lib_id "74xGxx:74LVC2G07")
+		(at 444.5 266.7 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d40a6670-dff7-4808-98e0-6c4a21926dfa")
+		(property "Reference" "U3"
+			(at 454.66 257.81 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "SN74LVC2G07DBVR"
+			(at 454.66 260.35 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 454.66 260.35 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.ti.com/lit/gpn/SN74LVC2G07"
+			(at 454.66 260.35 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "SN74LVC2G07DBVR"
+			(at 454.66 260.35 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Texas Instruments"
+			(at 454.66 260.35 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "U3")
+					(unit 1))))
+		(pin "1"
+			(uuid "4fb55ebd-bbc2-47d7-81ba-f7052106e029"))
+		(pin "6"
+			(uuid "6107c647-4d26-4dc8-81d3-6c9d757e52e1"))
+		(property "LCSC" "C37708"
+			(at 444.5 266.7 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/TexasInstruments-SN74LVC2G07DBVR/C37708"
+			(at 444.5 266.7 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 429.26 266.7)
+			(xy 421.64 266.7))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "92266dab-22f9-4b6b-bc6b-5b2abe5b58d2"))
+	(label "FAN_PWM"
+		(at 421.64 266.7 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "6fa566f7-e511-4e27-9122-3b550d4b50b5"))
+	(wire
+		(pts
+			(xy 457.2 266.7)
+			(xy 464.82 266.7))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "38edb5f5-b79c-4185-9243-e008b6bd5030"))
+	(label "FAN1_CTL"
+		(at 464.82 266.7 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "03715038-ac96-4007-bdbc-7c0c876ea8b0"))
+	(symbol
+		(lib_id "74xGxx:74LVC2G07")
+		(at 444.5 302.26 0)
+		(unit 2)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "567311a7-4426-4b2e-ad78-a87f5ccdf40d")
+		(property "Reference" "U3"
+			(at 454.66 293.37 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "SN74LVC2G07DBVR"
+			(at 454.66 295.91 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 454.66 295.91 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.ti.com/lit/gpn/SN74LVC2G07"
+			(at 454.66 295.91 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "SN74LVC2G07DBVR"
+			(at 454.66 295.91 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Texas Instruments"
+			(at 454.66 295.91 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "U3")
+					(unit 2))))
+		(pin "3"
+			(uuid "6e3d4323-6be5-4677-92bf-6119ee48553e"))
+		(pin "4"
+			(uuid "6fd9ccdc-eeb0-412b-a264-4081053121da"))
+		(property "LCSC" "C37708"
+			(at 444.5 302.26 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/TexasInstruments-SN74LVC2G07DBVR/C37708"
+			(at 444.5 302.26 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 429.26 302.26)
+			(xy 421.64 302.26))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "914488aa-2e27-4257-8ae4-1f54c20bb10f"))
+	(label "FAN2_PWM"
+		(at 421.64 302.26 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "902f89ec-a4fb-4425-8389-ee13aa5a3c07"))
+	(wire
+		(pts
+			(xy 457.2 302.26)
+			(xy 464.82 302.26))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "bbaabcc8-d4ea-4530-a215-b4e6b0f39291"))
+	(label "FAN2_CTL"
+		(at 464.82 302.26 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "b5a54c20-9cba-4a28-928a-1cdc0f48ece9"))
+	(symbol
+		(lib_id "74xGxx:74LVC2G07")
+		(at 518.16 350.52 0)
+		(unit 3)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ea78ce8-0ff6-48c7-bd0a-52c5d04b780f")
+		(property "Reference" "U3"
+			(at 528.32 341.63 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "SN74LVC2G07DBVR"
+			(at 528.32 344.17 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 528.32 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.ti.com/lit/gpn/SN74LVC2G07"
+			(at 528.32 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "SN74LVC2G07DBVR"
+			(at 528.32 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Texas Instruments"
+			(at 528.32 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "U3")
+					(unit 3))))
+		(pin "2"
+			(uuid "0b5c9473-31b9-429c-9000-696afa8c9139"))
+		(pin "5"
+			(uuid "60dc4b80-a3f7-48dd-a519-cf7283f0374a"))
+		(property "LCSC" "C37708"
+			(at 518.16 350.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/TexasInstruments-SN74LVC2G07DBVR/C37708"
+			(at 518.16 350.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 518.16 340.36)
+			(xy 518.16 335.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9fa455ae-c762-4d41-8d0b-89a62683dcde"))
+	(label "+3V3"
+		(at 518.16 335.28 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "32650491-cd8e-4347-9870-200e90b407ce"))
+	(wire
+		(pts
+			(xy 518.16 360.68)
+			(xy 518.16 365.76))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b9d945c3-9b6a-4399-8d0d-9f53b90ee635"))
+	(label "GND"
+		(at 518.16 365.76 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "f5951955-5f47-440e-988e-643c1b4cc621"))
+	(symbol
+		(lib_id "Device:R")
+		(at 490.22 261.62 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a404585-926e-4275-aef6-885a86e7bfd1")
+		(property "Reference" "R21"
+			(at 500.38 252.73 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "10k"
+			(at 500.38 255.27 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 500.38 255.27 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" ""
+			(at 500.38 255.27 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "RC0603FR-0710KL"
+			(at 500.38 255.27 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 500.38 255.27 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "R21")
+					(unit 1))))
+		(pin "1"
+			(uuid "bb50f570-ec84-40e7-9e30-f527eedc4685"))
+		(pin "2"
+			(uuid "fadb745d-9c46-4329-9e1d-15387a027e11"))
+		(property "LCSC" "C98220"
+			(at 490.22 261.62 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR0710KL/C98220"
+			(at 490.22 261.62 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 490.22 257.81)
+			(xy 490.22 252.73))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "412bd90b-eb49-4030-8f47-6dcac7b8fee3"))
+	(label "+3V3"
+		(at 490.22 252.73 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "24255e8a-8b44-4b1b-9403-e7bdb962daef"))
+	(wire
+		(pts
+			(xy 490.22 265.43)
+			(xy 490.22 270.51))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2830442b-b5e5-454f-a557-b532e428bcfb"))
+	(label "FAN_PWM"
+		(at 490.22 270.51 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "a85eb6c1-9ba6-4abe-ab50-47ee756a9856"))
+	(symbol
+		(lib_id "Device:R")
+		(at 490.22 302.26 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a82c984-1699-468a-8741-a36a562bc8be")
+		(property "Reference" "R22"
+			(at 500.38 293.37 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "10k"
+			(at 500.38 295.91 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 500.38 295.91 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" ""
+			(at 500.38 295.91 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "RC0603FR-0710KL"
+			(at 500.38 295.91 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 500.38 295.91 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "R22")
+					(unit 1))))
+		(pin "1"
+			(uuid "1b932011-8fd0-4b99-8f2f-e7ebd3462a0f"))
+		(pin "2"
+			(uuid "7fa40d0e-ea74-4c4f-a785-497fda122664"))
+		(property "LCSC" "C98220"
+			(at 490.22 302.26 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR0710KL/C98220"
+			(at 490.22 302.26 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 490.22 298.45)
+			(xy 490.22 293.37))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "8318af72-c826-4a3b-a36e-5a8ea2e10c31"))
+	(label "+3V3"
+		(at 490.22 293.37 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "8a0d4d06-b92a-472f-af4a-454c9bab3d51"))
+	(wire
+		(pts
+			(xy 490.22 306.07)
+			(xy 490.22 311.15))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fe4af37b-bcf7-4df9-b2cc-ed77fca67167"))
+	(label "FAN2_PWM"
+		(at 490.22 311.15 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "164144cb-52eb-48e3-9547-585b997bef92"))
+	(symbol
+		(lib_id "Device:C")
+		(at 467.36 345.44 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c088de04-e86a-4a71-9ec5-bf0224ad73eb")
+		(property "Reference" "C14"
+			(at 477.52 336.55 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "10uF 50V X7R"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" ""
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "GRM32ER71H106KA12L"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 477.52 339.09 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "C14")
+					(unit 1))))
+		(pin "1"
+			(uuid "a6d81257-0df4-426c-9e98-02ed95791daf"))
+		(pin "2"
+			(uuid "f5d88d54-93e3-45be-aec3-856c0ec49ce3"))
+		(property "LCSC" "C77102"
+			(at 467.36 345.44 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM32ER71H106KA12L/C77102"
+			(at 467.36 345.44 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 467.36 341.63)
+			(xy 467.36 336.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2393fd43-7b9b-42c1-9900-394eda190e3e"))
+	(label "FAN_12V"
+		(at 467.36 336.55 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "750ba9f1-6966-4503-baf0-5961acee4297"))
+	(wire
+		(pts
+			(xy 467.36 349.25)
+			(xy 467.36 354.33))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e60873d5-6968-4661-96d4-ea1f17219e03"))
+	(label "GND"
+		(at 467.36 354.33 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "abce81d9-e31e-498d-9d77-7aa18cd57223"))
+	(symbol
+		(lib_id "Device:C")
+		(at 551.18 350.52 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b8182a17-b6b8-4937-8a17-5c531ce391e4")
+		(property "Reference" "C15"
+			(at 561.34 341.63 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "100nF 50V X7R"
+			(at 561.34 344.17 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 561.34 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" ""
+			(at 561.34 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "GRM188R71H104KA93D"
+			(at 561.34 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 561.34 344.17 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "C15")
+					(unit 1))))
+		(pin "1"
+			(uuid "2b5d480f-7e9f-4672-ac87-f28fb6139251"))
+		(pin "2"
+			(uuid "f9c53c5f-a053-4f50-8417-7bda9f9f3250"))
+		(property "LCSC" "C77055"
+			(at 551.18 350.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R71H104KA93D/C77055"
+			(at 551.18 350.52 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 551.18 346.71)
+			(xy 551.18 341.63))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "27c3a0dc-9a13-42f5-81d5-35e83fde6701"))
+	(label "+3V3"
+		(at 551.18 341.63 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "385bf5af-e6c8-45c8-8883-9259e1f89712"))
+	(wire
+		(pts
+			(xy 551.18 354.33)
+			(xy 551.18 359.41))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0ecaa932-b2fc-4bef-aa94-fa9033868289"))
+	(label "GND"
+		(at 551.18 359.41 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "99d0e9b5-c3bd-4c01-a3c0-4a1d465f532d"))
+	(text "TWO INDEPENDENT FANS: PE14 / TIM1_CH4 and PB4 / TIM3_CH1.\nU3 preserves PWM polarity; outputs use the fan internal pull-ups.\nR21/R22 pull MCU-side controls to 3V3; default released input = full speed.\nJ14: protected 12V from power-board J7. Never connect to J10 (3V3).\nJ12/J13 pin 3 tachometer unused. Firmware maintained by teammate."
+		(at 411.48 381 0)
+		(effects
+			(font
+				(size 1 1)))
+		(uuid "645fe594-568f-4054-9ba9-9f4a7c82e045"))
+	(no_connect
+		(at 161.29 63.5)
+		(uuid "efbcf7c8-1b00-4bf3-89b1-a93f39bf55ca"))
+	(no_connect
+		(at 161.29 66.04)
+		(uuid "e36b89d0-e364-4888-8ad6-fbd5b7a7b3db"))
+	(no_connect
+		(at 161.29 71.12)
+		(uuid "be4c4cfc-83d5-4940-bf45-24270bb68186"))
+	(no_connect
+		(at 161.29 73.66)
+		(uuid "78959908-3ae7-468f-8c38-aaf143eb3032"))
+	(no_connect
+		(at 161.29 76.2)
+		(uuid "3017970f-6d4e-41ad-bf72-c4a365975976"))
+	(no_connect
+		(at 161.29 78.74)
+		(uuid "6ee73af6-cabd-4e56-940b-add8bd6b5e78"))
+	(no_connect
+		(at 161.29 81.28)
+		(uuid "df71357e-7a5d-4c39-982b-8da505c5e0d7"))
+	(no_connect
+		(at 161.29 83.82)
+		(uuid "f8187ae4-27fa-4b82-a1bc-aeedff7bcd5f"))
+	(no_connect
+		(at 161.29 96.52)
+		(uuid "d627d0f9-89bb-4673-a8d6-a4cb0e8fc863"))
+	(no_connect
+		(at 161.29 99.06)
+		(uuid "a76d42a2-ac64-4b9f-978a-77ce52219a90"))
+	(no_connect
+		(at 161.29 101.6)
+		(uuid "4e793922-4706-4b9a-b203-ad0bd3f41d1b"))
+	(no_connect
+		(at 161.29 106.68)
+		(uuid "5f9ab9cb-b98b-45fc-a6ac-583f2c268e8f"))
+	(no_connect
+		(at 161.29 114.3)
+		(uuid "7536f9e4-8612-4e39-90db-51fb89d113c9"))
+	(no_connect
+		(at 161.29 116.84)
+		(uuid "5c750acd-ef64-4875-9d84-d19e1da4341a"))
+	(no_connect
+		(at 161.29 119.38)
+		(uuid "6a72e1cc-8bc9-4596-8a12-bd68614106e8"))
+	(no_connect
+		(at 161.29 121.92)
+		(uuid "0d8a53d3-23dd-4ce6-8b5d-059ad9e4d660"))
+	(no_connect
+		(at 161.29 124.46)
+		(uuid "05595cbe-7fd6-4b0b-8785-63a728a2dc2b"))
+	(no_connect
+		(at 161.29 127.0)
+		(uuid "50346c3f-9656-4a7a-808b-256f64fbd98d"))
+	(no_connect
+		(at 161.29 129.54)
+		(uuid "191561cf-15bf-45ef-9e0c-90ec19e4bb21"))
+	(no_connect
+		(at 161.29 132.08)
+		(uuid "f800c183-761f-44d6-9833-4599befdc43e"))
+	(no_connect
+		(at 161.29 134.62)
+		(uuid "31d09ca6-8cca-46ad-9614-9609846be83c"))
+	(no_connect
+		(at 161.29 137.16)
+		(uuid "06383964-7af2-438b-8c1e-e6aad8f69778"))
+	(no_connect
+		(at 161.29 139.7)
+		(uuid "d582359a-5a18-4123-9e85-402bf687399c"))
+	(no_connect
+		(at 161.29 142.24)
+		(uuid "aa60a1b1-7939-4711-8c46-e4739f1d0c17"))
+	(no_connect
+		(at 161.29 144.78)
+		(uuid "fc678b6f-2a48-44a8-b622-bccd0dda2593"))
+	(no_connect
+		(at 161.29 149.86)
+		(uuid "4fbfb18e-9bf8-43fa-b76b-7d534a7f710c"))
+	(no_connect
+		(at 161.29 152.4)
+		(uuid "73c3095d-8851-444b-a401-5f6b302e215a"))
+	(no_connect
+		(at 161.29 154.94)
+		(uuid "b24ba810-15f5-47a4-9368-68584191455f"))
+	(no_connect
+		(at 161.29 157.48)
+		(uuid "77e3a7c3-e711-40cf-bce7-4aea090e330e"))
+	(no_connect
+		(at 161.29 160.02)
+		(uuid "b881a90a-0341-41f5-9761-824fae21d24e"))
+	(no_connect
+		(at 161.29 162.56)
+		(uuid "069e2389-805e-4a1e-9842-e086827a7de1"))
+	(no_connect
+		(at 161.29 165.1)
+		(uuid "701a60c6-bfd5-414a-a5f3-a40bb18f439f"))
+	(no_connect
+		(at 161.29 172.72)
+		(uuid "64e87cac-e6b7-4478-b193-06265c591f89"))
+	(no_connect
+		(at 227.33 35.56)
+		(uuid "8e9e87cc-750e-4206-afba-e50856588ad3"))
+	(no_connect
+		(at 227.33 38.1)
+		(uuid "e75c208b-3d76-4479-9b0b-9c36aa5bf43c"))
+	(no_connect
+		(at 227.33 40.64)
+		(uuid "c32d4827-6f94-4317-8e0d-37f9af9083a3"))
+	(no_connect
+		(at 227.33 45.72)
+		(uuid "9d676d19-4566-4924-971f-5a11bb3aa23f"))
+	(no_connect
+		(at 227.33 48.26)
+		(uuid "b931865a-87d7-4bdc-9063-3e30352c1de3"))
+	(no_connect
+		(at 227.33 53.34)
+		(uuid "10b7c09c-fc7b-49c6-b7b3-31d17fd4e6c2"))
+	(no_connect
+		(at 227.33 55.88)
+		(uuid "8f12c809-dc18-4be6-aabf-1a6a7f6cdf26"))
+	(no_connect
+		(at 227.33 60.96)
+		(uuid "ff5f8ab1-d97c-402e-84d0-6dfc934aaf81"))
+	(no_connect
+		(at 227.33 73.66)
+		(uuid "7babe276-3032-44fc-9d36-5b5228ed4f57"))
+	(no_connect
+		(at 227.33 78.74)
+		(uuid "7faef0b3-dc7e-45e8-954d-a80c54612204"))
+	(no_connect
+		(at 227.33 83.82)
+		(uuid "c87b2b36-5fc7-4924-a173-fdabeabe40ef"))
+	(no_connect
+		(at 227.33 86.36)
+		(uuid "960ce130-33da-4935-a536-2fd2350a3f6f"))
+	(no_connect
+		(at 227.33 91.44)
+		(uuid "8e38cee4-f3b4-4822-8c48-62ef9ba14a03"))
+	(no_connect
+		(at 227.33 93.98)
+		(uuid "28660111-d3a5-467f-92bb-fd5dc074713c"))
+	(no_connect
+		(at 227.33 96.52)
+		(uuid "ce29dba2-494c-4d09-80f0-bfc23326e97b"))
+	(no_connect
+		(at 227.33 109.22)
+		(uuid "7144266d-8cd7-4b30-90fc-5c107d5f71d9"))
+	(no_connect
+		(at 227.33 111.76)
+		(uuid "f5d5753d-d210-4c34-a140-b101f822c331"))
+	(no_connect
+		(at 227.33 114.3)
+		(uuid "e1a23bed-bfbe-4b59-a333-b86ce99d0731"))
+	(no_connect
+		(at 227.33 116.84)
+		(uuid "9534e1f6-dfb6-43bc-9b8e-0ad8cd8e43d6"))
+	(no_connect
+		(at 227.33 124.46)
+		(uuid "593835ff-6d3d-4438-b666-5be6b914cd09"))
+	(no_connect
+		(at 227.33 127.0)
+		(uuid "9c5d4b1a-ea8f-43cc-8c58-944bcd9d22a4"))
+	(no_connect
+		(at 227.33 132.08)
+		(uuid "6d5f242b-002c-4d86-958d-786c04d03dc2"))
+	(no_connect
+		(at 227.33 134.62)
+		(uuid "501fae13-ce6d-41b6-88a7-8e34cb77923d"))
+	(no_connect
+		(at 227.33 147.32)
+		(uuid "79abc39f-8f15-44c5-9c78-186bfe1fb43d"))
+	(no_connect
+		(at 227.33 149.86)
+		(uuid "5d5d9d73-4b36-4402-8831-6c8fd200324b"))
+	(no_connect
+		(at 227.33 152.4)
+		(uuid "575813ec-8cbb-4c4c-85ed-f876cc4bf0c2"))
+	(no_connect
+		(at 227.33 154.94)
+		(uuid "e98ec1b9-6df4-4804-8c10-a0d57f46d558"))
+	(no_connect
+		(at 227.33 190.5)
+		(uuid "46bc7b4f-b446-4790-bc28-df9cead38beb"))
+	(no_connect
+		(at 227.33 193.04)
+		(uuid "944137d3-6aa3-42bc-a128-cb5db3875dc5"))
+	(no_connect
+		(at 227.33 198.12)
+		(uuid "3993404c-d21d-4c22-bca7-22864246ffa6"))
+	(no_connect
+		(at 227.33 200.66)
+		(uuid "0832f27e-2c46-478d-b28e-395ec70d6610"))
+	(no_connect
+		(at 227.33 203.2)
+		(uuid "7308b5bd-5365-453f-8590-115ea4bc3d7b"))
+	(wire
+		(pts
+			(xy 30.48 120.65)
+			(xy 38.1 120.65))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "676a1262-5e23-40f4-becb-765cbbd8b348"))
+	(label "LEVEL_3V3"
+		(at 38.1 120.65 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "85c71858-6d07-4cb1-bba3-414913f30010"))
+	(symbol
+		(lib_id "BrainPower:TPS22919DCK")
+		(at 299.72 340.36 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e9ac999-a84b-4ee6-9b07-e64449c5ef08")
+		(property "Reference" "U4"
+			(at 299.72 330.2 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "TPS22919DCKR"
+			(at 299.72 332.74 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 299.72 332.74 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps22919.pdf"
+			(at 299.72 332.74 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "TPS22919DCKR"
+			(at 299.72 332.74 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Texas Instruments"
+			(at 299.72 332.74 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "U4")
+					(unit 1))))
+		(pin "1"
+			(uuid "e79f14ab-f09a-42e6-909a-e8af9b054119"))
+		(pin "2"
+			(uuid "7505713a-6798-460b-b296-ad6292f52be8"))
+		(pin "3"
+			(uuid "3a6a0128-06ce-4fa5-8566-22530e05b0b3"))
+		(pin "4"
+			(uuid "b3248849-68e2-46ac-a810-c6b4e3e108c5"))
+		(pin "5"
+			(uuid "04515c01-d699-40f9-9591-a984c1f53abf"))
+		(pin "6"
+			(uuid "1ef0083d-07c3-440a-9b96-d05bfbcdaf54"))
+		(property "LCSC" "C2149796"
+			(at 299.72 340.36 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/TexasInstruments-TPS22919DCKR/C2149796"
+			(at 299.72 340.36 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 289.56 337.82)
+			(xy 281.94 337.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9b1775e9-fade-42b9-88d4-c61c96baa73b"))
+	(label "+3V3"
+		(at 281.94 337.82 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "c2fb345c-58bd-4336-9f1e-fb3fbc04a1aa"))
+	(wire
+		(pts
+			(xy 299.72 347.98)
+			(xy 299.72 353.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "111e36cd-f89d-4f5e-834f-1d63c76fb791"))
+	(label "GND"
+		(at 299.72 353.06 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "f887784d-00e5-48fa-9d7b-b4e5f1077a30"))
+	(wire
+		(pts
+			(xy 289.56 342.9)
+			(xy 281.94 342.9))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e2eed55d-22a2-4a87-888d-d1bd440a2022"))
+	(label "LEVEL_PWR"
+		(at 281.94 342.9 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "e99cf0ab-4e52-4a75-b263-7df28c2a6085"))
+	(no_connect
+		(at 289.56 340.36)
+		(uuid "9de8ba2a-a4be-4096-b5ed-4c68367aedd5"))
+	(wire
+		(pts
+			(xy 309.88 340.36)
+			(xy 317.5 340.36))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5c5b7c3b-c249-4da9-8b02-66e7f16721b5"))
+	(label "LEVEL_DISCHG"
+		(at 317.5 340.36 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "5773c3af-9f2d-4787-9a98-1e3b2aba1456"))
+	(wire
+		(pts
+			(xy 309.88 337.82)
+			(xy 317.5 337.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cb87e5f0-baca-4cf5-a4c8-eb4e5551ac0d"))
+	(label "LEVEL_3V3"
+		(at 317.5 337.82 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "73cdbe04-747e-42c3-850c-3068a77aecb3"))
+	(symbol
+		(lib_id "Device:C")
+		(at 259.08 342.9 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab77cfaf-11f7-4d1f-9806-4827bfa0d8ce")
+		(property "Reference" "C16"
+			(at 259.08 332.74 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "1uF 16V X7R"
+			(at 259.08 335.28 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 259.08 335.28 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Murata-Electronics-GRM188R71E105KA12D_C86020.pdf"
+			(at 259.08 335.28 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "GRM188R71E105KA12D"
+			(at 259.08 335.28 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata Electronics"
+			(at 259.08 335.28 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "C16")
+					(unit 1))))
+		(pin "1"
+			(uuid "02754d7b-9ff1-43ed-b2ae-927e3c742e5e"))
+		(pin "2"
+			(uuid "18470b06-c8c9-47bb-9dff-01c3b38aa3c4"))
+		(property "LCSC" "C86020"
+			(at 259.08 342.9 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R71E105KA12D/C86020"
+			(at 259.08 342.9 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Replacement Review" "Murata 1uF X7R 10% 0603, 25V instead of 16V; same part already selected for pump bypass capacitors. Check effective capacitance for the load-switch bypass."
+			(at 259.08 342.9 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Sourcing Status" "Catalog checked for 3 boards of each design; stock not reserved"
+			(at 259.08 342.9 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Rating" "1uF 25V X7R 10%, 0603"
+			(at 259.08 342.9 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 259.08 339.09)
+			(xy 259.08 334.01))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ecb50a22-2350-4ed3-89f1-0ea994966981"))
+	(label "+3V3"
+		(at 259.08 334.01 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "9cec84ca-eb2e-4b0e-94da-2a3c8d9f3c65"))
+	(wire
+		(pts
+			(xy 259.08 346.71)
+			(xy 259.08 351.79))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "82d9d2e3-d4c4-4dd5-aaca-82fd808e1f9a"))
+	(label "GND"
+		(at 259.08 351.79 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "7257d718-c2e5-4d5f-b207-59b9b9af6856"))
+	(symbol
+		(lib_id "Device:C")
+		(at 337.82 342.9 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff7ee006-0afc-483a-a7b8-abfdef8175d5")
+		(property "Reference" "C17"
+			(at 337.82 332.74 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "100nF 50V X7R"
+			(at 337.82 335.28 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 337.82 335.28 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" ""
+			(at 337.82 335.28 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "GRM188R71H104KA93D"
+			(at 337.82 335.28 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Murata"
+			(at 337.82 335.28 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "C17")
+					(unit 1))))
+		(pin "1"
+			(uuid "bd430b15-c5f0-4dfa-ab40-055b50beab59"))
+		(pin "2"
+			(uuid "c788fee7-e463-40c8-9c6f-4ab623deb134"))
+		(property "LCSC" "C77055"
+			(at 337.82 342.9 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R71H104KA93D/C77055"
+			(at 337.82 342.9 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 337.82 339.09)
+			(xy 337.82 334.01))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f8040f8a-b317-444d-930c-9338e9e82deb"))
+	(label "LEVEL_3V3"
+		(at 337.82 334.01 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "80ff29cd-29b2-4eb8-bae4-e9507c2c0e1a"))
+	(wire
+		(pts
+			(xy 337.82 346.71)
+			(xy 337.82 351.79))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "40235687-a9d3-4b3b-845a-670855bc3482"))
+	(label "GND"
+		(at 337.82 351.79 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "9e749f5d-8e2c-4c9a-866b-3c79089a0424"))
+	(symbol
+		(lib_id "Device:R")
+		(at 299.72 373.38 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7592c684-dcc6-4fb0-9143-7c5529c0375e")
+		(property "Reference" "R23"
+			(at 299.72 363.22 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "100k"
+			(at 299.72 365.76 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 299.72 365.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" ""
+			(at 299.72 365.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "RC0603FR-07100KL"
+			(at 299.72 365.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 299.72 365.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "R23")
+					(unit 1))))
+		(pin "1"
+			(uuid "068bd8aa-beb9-478b-909a-875bbac3c84d"))
+		(pin "2"
+			(uuid "a42c4c67-a504-4ac4-9f1a-52ade4f755ca"))
+		(property "LCSC" "C14675"
+			(at 299.72 373.38 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR07100KL/C14675"
+			(at 299.72 373.38 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 299.72 369.57)
+			(xy 299.72 364.49))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9bf9f90c-49a1-4e86-9610-1270a0187b89"))
+	(label "LEVEL_PWR"
+		(at 299.72 364.49 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "94b01e15-0eb3-4d3d-b1d3-39cad5f509e0"))
+	(wire
+		(pts
+			(xy 299.72 377.19)
+			(xy 299.72 382.27))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "85da37f1-39a9-44ce-a59e-eb3ae2f093d8"))
+	(label "GND"
+		(at 299.72 382.27 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "8ab20ecc-0845-440c-ac68-99fa0573828e"))
+	(symbol
+		(lib_id "Device:R")
+		(at 337.82 373.38 0)
+		(unit 1)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e7baf4f-a08e-4124-b65c-0babaa367179")
+		(property "Reference" "R24"
+			(at 337.82 363.22 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Value" "100"
+			(at 337.82 365.76 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 337.82 365.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Datasheet" ""
+			(at 337.82 365.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "MPN" "RC0603FR-07100RL"
+			(at 337.82 365.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "Manufacturer" "Yageo"
+			(at 337.82 365.76 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(instances
+			(project "brain_PCB"
+				(path "/4bb3d8ed-a62e-4677-afe9-da4a1eb55537"
+					(reference "R24")
+					(unit 1))))
+		(pin "1"
+			(uuid "4e6163fd-88ed-426a-8ac6-3a025c52d299"))
+		(pin "2"
+			(uuid "fab9c133-f32d-4249-a18d-0dc5b877aaa1"))
+		(property "LCSC" "C105588"
+			(at 337.82 373.38 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes))
+		(property "JLCPCB URL" "https://jlcpcb.com/partdetail/YAGEO-RC0603FR07100RL/C105588"
+			(at 337.82 373.38 0)
+			(effects
+				(font
+					(size 1 1)))
+			(hide yes)))
+	(wire
+		(pts
+			(xy 337.82 369.57)
+			(xy 337.82 364.49))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "07201a9c-6463-4316-b37d-914ebc483cfe"))
+	(label "LEVEL_DISCHG"
+		(at 337.82 364.49 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "5d471fa6-a838-42f1-95e3-7e37a4c4b816"))
+	(wire
+		(pts
+			(xy 337.82 377.19)
+			(xy 337.82 382.27))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fb19a5a3-89e1-4c89-be33-5dcd8f3639af"))
+	(label "LEVEL_3V3"
+		(at 337.82 382.27 0)
+		(effects
+			(font
+				(size 1 1))
+			(justify left bottom))
+		(uuid "c701eb6b-a119-4812-bd3e-ed1404dfdc8f"))
+	(text "ADAFRUIT 4965 WATER DETECTION\nJ3: 1 = S (LEVEL_IN), 2 = - (GND), 3 = + (switched 3V3).\nPG2 / LEVEL_PWR enables U4: high = sensor powered.\nU4 QOD discharges sensor supply when disabled; R23 defaults OFF.\nSensor output is wet/dry indication, not calibrated depth.\nExisting signal stays on PC3_C through R3/C3.\nFirmware owner: verify ADC3 channel / PC3_C analog switch; PA3 is unwired."
+		(at 246.38 398.78 0)
+		(effects
+			(font
+				(size 1 1)))
+		(uuid "f73d822f-9cac-4a36-91fc-18d9ac0c53d9"))
+	(no_connect
+		(at 227.33 43.18)
+		(uuid "84ef0c96-b133-414c-bd5b-bb1a6fe40cd8"))
+	(text "PA3 is unused on this PCB. Level input is PC3_C / ADC3_INP1.\nReviewed: readWaterLevel uses hadc3; MX_ADC3_Init selects channel 1;\nMSP opens SYSCFG_SWITCH_PC3. Legacy PA3 ADC2 initialization may be removed by firmware owner."
+		(at 241.3 43.18 0)
+		(effects
+			(font
+				(size 1 1)))
+		(uuid "b8d8fb2d-eb87-4083-aa98-ed12873a3ad9")))

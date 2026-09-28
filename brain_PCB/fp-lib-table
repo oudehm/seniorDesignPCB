@@ -1,0 +1,4 @@
+(fp_lib_table
+ (version 7)
+ (lib (name "BrainReviewed")(type "KiCad")(uri "${KIPRJMOD}/BrainReviewed.pretty")(options "")(descr "Reviewed as-routed footprint variants; see manufacturing review"))
+)

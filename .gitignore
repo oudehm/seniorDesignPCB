@@ -1,30 +1,30 @@
-# Whitelist mode: ignore everything, then allow only what each KiCad project needs to open.
+# Track only the four editable KiCad projects and their local dependencies.
+/*
+!/.gitignore
+!/README.md
+!/brain_PCB/
+!/light_PCB/
+!/power_PCB/
+!/pump_PCB/
 
-*
+# Within project folders, allow only source files and project libraries.
+**/*
 !*/
-!.gitignore
+!/*_PCB/*.kicad_pro
+!/*_PCB/*.kicad_sch
+!/*_PCB/*.kicad_pcb
+!/*_PCB/*.kicad_dru
+!/*_PCB/fp-lib-table
+!/*_PCB/sym-lib-table
+!/*_PCB/*.kicad_sym
+!/*_PCB/symbols/*.kicad_sym
+!/*_PCB/*.pretty/*.kicad_mod
+!/brain_PCB/3dmodels/USB4110_simplified.wrl
+!/.gitignore
+!/README.md
 
-# Core project files
-!*.kicad_pro
-!*.kicad_sch
-!*.kicad_pcb
-!*.kicad_prl
-
-# Custom design rules (DRC clearances/widths live here)
-!*.kicad_dru
-
-# Project-local libraries and the tables that register them
-!fp-lib-table
-!sym-lib-table
-!*.kicad_sym
-!*.pretty/
-!*.kicad_mod
-
-# Connector 3D models referenced by brain_PCB footprints
-!brain_PCB/3dmodels/*.wrl
-
-# Never track these directories even if they hold whitelisted file types
-.history/
+# Generated outputs, backups, and machine-specific editor state stay local.
+*.kicad_prl
+*-backups/
 routing/
-connector_standardization/
-.claude/
+.history/
