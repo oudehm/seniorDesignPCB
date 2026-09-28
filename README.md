@@ -8,17 +8,25 @@ Editable KiCad projects for the brain, light, power, and pump boards.
 
 ### Brain board
 
+The main STM32 controller connects the environmental sensors and display, and provides control signals for the lights, dosing pumps, fans, and cooler.
+
 ![Brain PCB 3D view](docs/images/brain.png)
 
 ### Light board
+
+Four MOSFET channels switch the blue, red, near-infrared, and white grow lights using PWM signals from the brain board.
 
 ![Light PCB 3D view](docs/images/light.png)
 
 ### Power board
 
+Distributes the 12 V supply through fused branches and generates 5 V and 3.3 V rails for the system. It also includes the cooler switching circuit.
+
 ![Power PCB 3D view](docs/images/power.png)
 
 ### Pump board
+
+Five MOSFET driver channels control the Micro, Grow, Bloom, pH-up, and pH-down dosing pumps, with flyback diodes for the pump loads.
 
 ![Pump PCB 3D view](docs/images/pump.png)
 
